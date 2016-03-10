@@ -1,0 +1,63 @@
+doctype html
+block vars
+  - var bodyclass = null;
+html(lang='en')
+  head
+    block head
+      meta(charset='utf-8')
+      meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+      meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+      // - The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+      meta(name="description" content=locals.name)
+      meta(name="author" content=locals.owner)
+      title
+        block title
+          = locals.name
+      link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
+      link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300')
+      link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous")
+      link(rel='stylesheet', href=contents.css['bootstrap.min.css'].url)
+      link(rel='stylesheet', href=contents.css['main.css'].url)
+  body(class=bodyclass)
+    nav(class="navbar navbar-fixed-top navbar-dark bg-inverse")
+      a(class="navbar-brand" href="#")= locals.name
+      ul(class="nav navbar-nav")
+        li(class="nav-item active")
+          a(class="nav-link" href="#") Home 
+          span(class="sr-only") (current)
+        li.nav-item
+          a(class="nav-link" href="#") About
+        li.nav-item
+          a(class="nav-link" href="#") Contact
+    // - Main jumbotron for a primary marketing message or call to action
+    div.jumbotron
+      div.container
+        h1.display-3 Hello, world!
+        p This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
+        p
+        a(class="btn btn-primary btn-lg" href="#" role="button") Learn more &raquo;
+    div.container
+      header.header
+        div.content-wrap
+          block header
+            div.logo
+              h1
+                a(href=locals.url)= locals.name
+              p.description= locals.description
+      div#content
+        div.content-wrap
+          block content
+            h2 Welcome to zombocom!
+    script(src=contents.js['jquery.min.js'].url)
+    script(src=contents.js['tether.min.js'].url)
+    script(src=contents.js['bootstrap.min.js'].url)
+    footer
+      div.content-wrap
+        block footer
+          section.about
+            !=contents['about.md'].html
+          section.copy
+            p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
+              a(href='https://github.com/jnordberg/wintersmith') Wintersmith
+              //-
+              //-please leave the "powered by" if you use the design

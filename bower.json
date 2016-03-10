@@ -1,0 +1,22 @@
+{
+  "name": "00keys",
+  "description": "website",
+  "main": "",
+  "authors": [
+    "Nathan Ross Powell <nathanrosspowell@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "keyboard",
+    "00keys"
+  ],
+  "homepage": "https://github.com/nathanrosspowell/00keys",
+  "moduleType": [],
+  "private": true,
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2",
+    "tether": "^1.2.0",
+    "jquery": "^2.2.1",
+    "jquery-dist": "^2.1.3"
+  }
+}
