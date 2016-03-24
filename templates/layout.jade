@@ -19,42 +19,38 @@ html(lang='en')
       link(rel='stylesheet', href=contents.css['bootstrap.min.css'].url)
       link(rel='stylesheet', href=contents.css['main.css'].url)
   body(class=bodyclass)
-    nav(class="navbar navbar-fixed-top navbar-dark bg-inverse")
-      a(class="navbar-brand" href="#")= locals.name
-      ul(class="nav navbar-nav")
-        li(class="nav-item active")
-          a(class="nav-link" href="#") Home 
-          span(class="sr-only") (current)
-        li.nav-item
-          a(class="nav-link" href="#") About
-        li.nav-item
-          a(class="nav-link" href="#") Contact
-    // - Main jumbotron for a primary marketing message or call to action
-    div.jumbotron
-      div.container
-        h1.display-3 Hello, world!
-        p This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
-        p
-        a(class="btn btn-primary btn-lg" href="#" role="button") Learn more &raquo;
     div.container
-      header.header
-        div.content-wrap
-          block header
-            div.logo
-              h1
-                a(href=locals.url)= locals.name
-              p.description= locals.description
+      div(class="header clearfix")
+        nav
+          ul(class="nav nav-pills pull-xs-right")
+            ul(class="nav navbar-nav")
+              li(class="nav-item active")
+                a(class="nav-link" href="#") Home 
+                span(class="sr-only") (current)
+              li.nav-item
+                a(class="nav-link" href="#") About
+              li.nav-item
+                a(class="nav-link" href="#") Contact
+        h3.text-muted= locals.name
+      // - Main jumbotron for a primary marketing message or call to action
+      div.jumbotron
+        div.container
+          block jumbotron
+            h1.display-3 00keys
+            p Custom designed keycaps for your mechanical keyboard.
+            p
+            a(class="btn btn-success btn-lg" href="#" role="button") Learn more &raquo;
       block content
         h2 Welcome to zombocom!
-    footer
-      div.content-wrap
-        block footer
-          section.about
-            !=contents['about.md'].html
-          section.copy
-            p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
-              a(href='https://github.com/jnordberg/wintersmith') Wintersmith
-              //- please leave the "powered by" if you use the design
+      footer
+        div.content-wrap
+          block footer
+            section.about
+              !=contents['about.md'].html
+            section.copy
+              p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
+                a(href='https://github.com/jnordberg/wintersmith') Wintersmith
+                //- please leave the "powered by" if you use the design
     block scripts
       script(src=contents.js['jquery.min.js'].url)
       script(src=contents.js['tether.min.js'].url)

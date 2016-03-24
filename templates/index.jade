@@ -3,28 +3,37 @@ extends layout
 
 block content
   div.row
+    h1 Group Buys
     include author
     each article in articles
-      div.col-md-4
-        header
-          p.date
-            span= moment.utc(article.date).format('DD. MMMM YYYY')
-          h2
-            a(href=article.url)= article.title
-        section.content
-          if article.intro.length > 0
-            != typogr(article.intro).typogrify()
-          if article.hasMore
-            p.more
-              a(class="btn btn-secondary" href=article.url role="button") View details &raquo;
+      if article.metadata.type == "gb"
+        div(class="col-6")
+          header
+            h2
+              a(href=article.url)= article.title
+          section.content
+          section.content
+            if article.intro.length > 0
+              img(src="/gbs/" + article.metadata.code + "-banner.png" alt=article.title class="img-fluid")
+              != typogr(article.intro).typogrify()
+            if article.hasMore
+              p.more
+                a(class="btn btn-secondary" href=article.url role="button") View details &raquo;
+  div.row
+    h1 Keys
+    include author
+    each article in articles
+      if article.metadata.type == "key"
+        div(class="col-sm-6 col-md-3 col-lg-2")
+          header
+            h2
+              a(href=article.url)= article.title
+            p.date
+              span= article.metadata.colorway 
+              span= " - "
+              span= article.metadata.profile
+          section.content
+            img(src="/singlekeys/" + article.metadata.code + ".png" alt=article.title class="img-fluid")
 
-block prepend footer
-  div.nav
-        
-
-    if prevPage
-      a(href=prevPage.url) &laquo; Newer
-    else
-      a(href='/archive.html') &laquo; Archives
-    if nextPage
-      a(href=nextPage.url) Next page &raquo;
+block footer
+    

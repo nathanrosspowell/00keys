@@ -1,0 +1,15 @@
+---
+title: Mini Nuke
+profile: SA Row 1
+colorway: Special Fat Man
+base: VV
+legend: YY
+author: baker
+date: 2016-04-01
+type: key
+code: mininuke-vv-yy-sa1
+template: key.jade
+---
+
+<span class="more"> 
+

@@ -1,7 +1,7 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "00keys",
+    "name": "00keys - WIP",
     "owner": "Nathan Ross Powell",
     "description": "Custom Keycaps"
   },
@@ -21,6 +21,6 @@
     "smartypants": true
   },
   "paginator": {
-    "perPage": 3
+    "perPage": 99
   }
 }
