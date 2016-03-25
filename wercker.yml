@@ -8,5 +8,5 @@ build:
 deploy:
   steps:
     - lukevivier/gh-pages:
-        token: ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+        token: '$GH_TOKEN'
         basedir: build
