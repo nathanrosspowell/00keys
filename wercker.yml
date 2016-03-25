@@ -1,7 +1,7 @@
 box: node
 build:
   steps:
-    - npm install -g bower wintersmith grunt-cli
+    - npm-install -g bower wintersmith grunt-cli
     - npm-install
     - bower install
     - grunt build
