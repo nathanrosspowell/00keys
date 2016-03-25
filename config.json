@@ -5,6 +5,7 @@
     "owner": "Nathan Ross Powell",
     "description": "Custom Keycaps"
   },
+  "baseUrl" : "/00keys/",
   "plugins": [
     "./plugins/paginator.coffee"
   ],
@@ -24,3 +25,4 @@
     "perPage": 99
   }
 }
+

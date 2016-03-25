@@ -9,9 +9,9 @@ block prepend title
 
 block jumbotron
     h1
-        img(src="/singlekeys/" + page.metadata.code + ".png" alt=page.title class="img-fluid")
-    img(src="/colors/" + page.metadata.base + ".jpg" alt=page.metadata.base class="img-fluid")
-    img(src="/colors/" + page.metadata.legend + ".jpg" alt=page.metadata.legend class="img-fluid")
+        img(src=contents.singlekeys[page.metadata.code + ".png"].url alt=page.metadata.base class="img-fluid")
+        img(src=contents.colors[page.metadata.base + ".jpg"].url alt=page.metadata.base class="img-fluid")
+        img(src=contents.colors[page.metadata.legend + ".jpg"].url alt=page.metadata.base class="img-fluid")
 
 block content
   h1= page.title

@@ -9,11 +9,20 @@ block prepend title
 
 block jumbotron
   h1= page.title
-  img(src="/gbs/" + page.metadata.code + "-banner.png" alt=page.title class="img-fluid")
+  img(src=contents.gbs[page.metadata.code + "-banner.png"].url alt=page.metadata.base class="img-fluid")
 
 block content
   article.article
     section.content!= typogr(page.html).typogrify()
+    h2 Links
+    for data in page.metadata.links
+      a(href=data.url)
+        span= data.name
+    for data in page.metadata.offers
+      hr
+      h2= data.name
+      img(src=contents.gbs[page.metadata.code + "-" + data.img + ".png"].url alt=page.metadata.base class="img-fluid")
+      p= "Kit Price: $" + data.price
 
 block footer
   div.nav

@@ -14,7 +14,7 @@ block content
           section.content
           section.content
             if article.intro.length > 0
-              img(src="/gbs/" + article.metadata.code + "-banner.png" alt=article.title class="img-fluid")
+              img(src=contents.gbs[article.metadata.code + "-banner.png"].url alt=article.title class="img-fluid")
               != typogr(article.intro).typogrify()
             if article.hasMore
               p.more
