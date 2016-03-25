@@ -6,3 +6,7 @@ build:
     - npm-install
     - grunt:
       code: grunt build
+deploy:
+  steps:
+    - lukevivier/gh-pages:
+        basedir: build
