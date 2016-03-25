@@ -6,7 +6,7 @@ build:
     - npm-install
     - grunt
     - grunt:
-      task : 'gh-pages'
+      tasks: 'gh-pages'
 deploy:
   steps:
     - lukevivier/gh-pages:
