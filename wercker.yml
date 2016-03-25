@@ -5,7 +5,8 @@ build:
       code: export NODE_ENV='testing'
     - npm-install
     - grunt:
-      code: grunt deploy
+    - grunt:
+      task : gh-pages
 deploy:
   steps:
     - lukevivier/gh-pages:
