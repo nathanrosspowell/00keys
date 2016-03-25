@@ -1,6 +1,8 @@
-box: node
+box: node:4.2.6-slim
 build:
   steps:
+    - script:
+      code: export NODE_ENV='testing'
     - npm-install
     - grunt:
       code: grunt build
