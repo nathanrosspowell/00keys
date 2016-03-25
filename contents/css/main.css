@@ -97,3 +97,7 @@ footer .nav a {
 .row{
   overflow: hidden; 
 }
+
+.keyinfo{
+    font-size: 0.8em;
+}

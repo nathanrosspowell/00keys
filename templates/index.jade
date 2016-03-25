@@ -28,12 +28,13 @@ block content
           header
             h2
               a(href=article.url)= article.title
-            p.date
+            p.keyinfo
               span= article.metadata.colorway 
-              span= " - "
+              br
               span= article.metadata.profile
           section.content
-            img(src="/singlekeys/" + article.metadata.code + ".png" alt=article.title class="img-fluid")
+            a(href=article.url)
+              img(src=contents.singlekeys[article.metadata.code + ".png"].url alt=article.title class="img-fluid")
 
 block footer
     
