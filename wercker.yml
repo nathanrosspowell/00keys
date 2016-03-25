@@ -4,8 +4,10 @@ build:
     - script:
       code: export NODE_ENV='testing'
     - npm-install
-    - grunt:
-      code: grunt build
+    - grunt default:
+      code: grunt
+    - grunt deploy:
+      code: grunt deploy
 deploy:
   steps:
     - lukevivier/gh-pages:
