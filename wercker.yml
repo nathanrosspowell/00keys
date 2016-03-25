@@ -4,7 +4,7 @@ build:
     - script:
       code: export NODE_ENV='testing'
     - npm-install
-    - grunt default:
+    - grunt:
       code: grunt deploy
 deploy:
   steps:
