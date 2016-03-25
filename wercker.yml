@@ -5,8 +5,6 @@ build:
       code: export NODE_ENV='testing'
     - npm-install
     - grunt default:
-      code: grunt
-    - grunt deploy:
       code: grunt deploy
 deploy:
   steps:
