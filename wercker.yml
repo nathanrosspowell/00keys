@@ -2,5 +2,5 @@ box: node
 build:
   steps:
     - npm-install
-    - grunt
+    - grunt:
       code: grunt build
