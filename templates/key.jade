@@ -8,15 +8,21 @@ block prepend title
   | #{ page.title + ' - '}
 
 block jumbotron
-    h1
-        img(src=contents.singlekeys[page.metadata.code + ".png"].url alt=page.metadata.base class="img-fluid")
-        img(src=contents.colors[page.metadata.base + ".jpg"].url alt=page.metadata.base class="img-fluid")
-        img(src=contents.colors[page.metadata.legend + ".jpg"].url alt=page.metadata.base class="img-fluid")
+  h1= page.title
+  img(src=contents.singlekeys[page.metadata.code + ".png"].url alt=page.metadata.base class="img-fluid center-block")
 
 block content
   h1= page.title
   article.article
     section.content!= typogr(page.html).typogrify()
+
+    h3 Color Chips
+    div.colorchip
+      img(src=contents.colors[page.metadata.base + ".jpg"].url alt=page.metadata.base title=page.metadata.base class="img-fluid")
+      img(src=contents.colors[page.metadata.legend + ".jpg"].url alt=page.metadata.legend title=page.metadata.legend class="img-fluid")
+    div(class="card card-block legend-"+page.metadata.legend + " background-" + page.metadata.base)
+      h4.card-title Color Example
+      p.card-text Get a feel for these colors... feel them!
 
 block footer
   div.nav

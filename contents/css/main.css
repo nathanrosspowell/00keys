@@ -99,5 +99,80 @@ footer .nav a {
 }
 
 .keyinfo{
-    font-size: 0.8em;
+  font-size: 0.8em;
+}
+
+.colorchip {
+  width: 200px;
+  display: inline-block;
+}
+
+.colorchip img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+.legend-BFK {
+  color:#005190;
+}
+
+.background-BFK {
+  background-color:#005190;
+}
+
+.legend-YY {
+  color:#f8cc2a;
+}
+
+.background-YY {
+  background-color:#f8cc2a;
+}
+
+.legend-NN {
+  color:#212224;
+}
+
+.background-NN {
+  background-color: #212224;
+}
+
+.legend-RA {
+  color:#ba1312;
+}
+
+.background-RA {
+  background-color: #ba1312;
+}
+
+.legend-WA {
+  color:#e4dedd;
+}
+
+.background-WA {
+  background-color: #e4dedd;
+}
+
+.legend-OAS {
+  color:#ff6800;
+}
+
+.background-OAS {
+  background-color: #ff6800;
+}
+
+.legend-VV {
+  color:#005d35;
+}
+
+.background-VV {
+  background-color: #005d35;
+}
+
+.legend-YCA {
+  color:#CDCEAF;
+}
+
+.background-YCA {
+  background-color: #CDCEAF;
 }

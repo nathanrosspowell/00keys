@@ -9,7 +9,7 @@ block prepend title
 
 block jumbotron
   h1= page.title
-  img(src=contents.gbs[page.metadata.code + "-banner.png"].url alt=page.metadata.base class="img-fluid")
+  img(src=contents.gbs[page.metadata.code + "-jumbotron.jpg"].url alt=page.metadata.base class="img-fluid center-block")
 
 block content
   article.article
@@ -21,8 +21,8 @@ block content
     for data in page.metadata.offers
       hr
       h2= data.name
-      img(src=contents.gbs[page.metadata.code + "-" + data.img + ".png"].url alt=page.metadata.base class="img-fluid")
       p= "Kit Price: $" + data.price
+      img(src=contents.gbs[page.metadata.code + "-" + data.img + ".png"].url alt=page.metadata.base class="img-fluid")
 
 block footer
   div.nav
