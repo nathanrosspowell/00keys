@@ -41,24 +41,26 @@ html(lang='en')
             p
             a(class="btn btn-lg" href="#" role="button") More coming soon!
       block allcontent
-        section
-          block content
-        section
-          block tags
-            // - nothing by default
-        section
-          block backbutton
-            div.nav
-              a(href=contents.index.url) &laquo; Home
-        section
-          block footer
-            h1 About
-            section.about
-              !=contents['about.md'].html
-            section.copy
-              p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
-                a(href='https://github.com/jnordberg/wintersmith') Wintersmith
-                //- please leave the "powered by" if you use the design
+        block nocontent
+          section
+            block content
+        block notags
+          section
+            block tags
+        block nobackbutton
+          section
+            block backbutton
+              div.nav
+                a(href=contents.index.url) &laquo; Home
+        block nofooter
+          section
+            block footer
+              h1 About
+              section.about
+                !=contents['about.md'].html
+              section.copy
+                p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
+                  a(href='https://github.com/jnordberg/wintersmith') Wintersmith
     block scripts
       script(src=contents.js['jquery.min.js'].url)
       script(src=contents.js['tether.min.js'].url)
