@@ -7,8 +7,12 @@
   },
   "baseUrl" : "/00keys/",
   "plugins": [
-    "./plugins/paginator.coffee"
+    "./plugins/paginator.coffee",
+    "wintersmith-tag"
   ],
+  "tag": {
+    "template": "tag-index.jade"
+  },
   "require": {
     "moment": "moment",
     "_": "underscore",

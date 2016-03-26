@@ -1,0 +1,48 @@
+
+extends layout
+
+block content
+  block gbs
+    section
+       div.row
+        h1 Group Buys
+        include author
+        each article in articles
+          if article.metadata.type == "gb"
+            div(class="col-6")
+              header
+                h2
+                  a(href=article.url)= article.title
+              section.content
+              section.content
+                if article.intro.length > 0
+                  img(src=contents.gbs[article.metadata.code + "-banner.png"].url alt=article.title class="img-fluid")
+                  != typogr(article.intro).typogrify()
+                if article.hasMore
+                  p.more
+                    a(class="btn btn-secondary" href=article.url role="button") View details &raquo;
+  block keys
+  div.row
+      block keystitle
+        h1 Keys
+      include author
+      each article in articles
+        if article.metadata.type == "key"
+          div(class="col-sm-6 col-md-3 col-lg-2")
+            header
+              h2
+                a(href=article.url)= article.title
+              p.keyinfo
+                span= article.metadata.colorway 
+                br
+                span= article.metadata.profile
+            section.content.key-size
+              a(href=article.url)
+                img(src=contents.singlekeys[article.metadata.code + ".png"].url alt=article.title class="img-fluid")
+block tags
+  h1 All Tags
+  ul.inline
+    each tag in env.helpers.getAllTags()
+      li   
+        a(class="btn btn-secondary" role="button" href=env.helpers.getTagHome(tag).url)= tag
+    

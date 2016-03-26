@@ -4,6 +4,9 @@ body {
   padding-bottom: 1.5rem;
 }
 
+section {
+  padding-bottom: 1.5rem;
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -89,15 +92,6 @@ footer .nav a {
     max-width: 100%;
 }
 
-.row [class*="col-"]{
-  margin-bottom: -99999px;
-  padding-bottom: 99999px;
-}
-
-.row{
-  overflow: hidden; 
-}
-
 .keyinfo{
   font-size: 0.8em;
 }
@@ -112,7 +106,13 @@ footer .nav a {
   max-width: 100%;
 }
 
-ul.colorchip li {
+ul.inline {
+  display:inline;
+  padding:0;
+  margin:0;
+}
+
+ul.inline li {
   display:inline;
   overflow: hidden;
   padding:0;
@@ -120,7 +120,9 @@ ul.colorchip li {
   list-style-type: none;
 }
 
-
+.key-size {
+  height:150px;
+}
 .legend-BFK {
   color:#005190;
 }

@@ -8,6 +8,7 @@ author: baker
 date: 2016-04-01
 type: key
 code: mininuke-vv-yy-sa1
+tags: SA Row 1, Mini Nuke, Glowing One GB, Special Fat Man
 template: key.jade
 ---
 

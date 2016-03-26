@@ -8,6 +8,7 @@ author: baker
 date: 2016-04-01
 type: key
 code: v12-bfk-yy-sa1
+tags: SA Row 1, Vault 12, Glowing One GB, Vault Jumpsuit
 template: key.jade
 ---
 

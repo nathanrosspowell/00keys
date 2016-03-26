@@ -3,7 +3,7 @@ extends layout
 
 block append vars
   - bodyclass = 'article-detail'
-
+  
 block prepend title
   | #{ page.title + ' - '}
 
@@ -12,18 +12,30 @@ block jumbotron
   img(src=contents.gbs[page.metadata.code + "-jumbotron.jpg"].url alt=page.metadata.base class="img-fluid center-block")
 
 block content
-  article.article
-    section.content!= typogr(page.html).typogrify()
-    h2 Links
-    for data in page.metadata.links
-      a(href=data.url)
-        span= data.name
-    for data in page.metadata.offers
-      hr
-      h2= data.name
-      p= "Kit Price: $" + data.price
-      img(src=contents.gbs[page.metadata.code + "-" + data.img + ".png"].url alt=page.metadata.base class="img-fluid")
-
-block footer
-  div.nav
-    a(href=contents.index.url) &laquo; Home
+  section.content!= typogr(page.html).typogrify()
+  h2 Links
+  for data in page.metadata.links
+    a(href=data.url)
+      span= data.name
+  for data in page.metadata.offers
+    hr
+    h2= data.name
+    p= "Kit Price: $" + data.price
+    img(src=contents.gbs[page.metadata.code + "-" + data.img + ".png"].url alt=page.metadata.base class="img-fluid")
+    div.row 
+      h1 Keys
+      each keypage in env.helpers.getArticlesByTag(contents, page.metadata.gbtag)
+        if keypage.metadata.type == "key"
+          if env.helpers.getTagsFromArticle(keypage).indexOf(data.tagfilter) != -1
+            div(class="col-sm-6 col-md-3 col-lg-2")
+              header
+                h2
+                  a(href=keypage.url)= keypage.title
+                p.keyinfo
+                  span= keypage.metadata.colorway 
+                  br
+                  span= keypage.metadata.profile
+              section.content.key-size
+                a(href=keypage.url)
+                  img(src=contents.singlekeys[keypage.metadata.code + ".png"].url alt=keypage.title class="img-fluid")
+  

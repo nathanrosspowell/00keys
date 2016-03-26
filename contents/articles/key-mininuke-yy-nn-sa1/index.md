@@ -8,6 +8,7 @@ author: baker
 date: 2016-04-01
 type: key
 code: mininuke-yy-nn-sa1
+tags: SA Row 1, Mini Nuke, Glowing One GB, Rad Hard
 template: key.jade
 ---
 
