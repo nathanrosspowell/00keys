@@ -10,19 +10,26 @@ block prepend title
 block jumbotron
   h1= page.title
   img(src=contents.singlekeys[page.metadata.code + ".png"].url alt=page.metadata.base class="img-fluid center-block")
+  span= page.metadata.colorway 
+  span= " - "
+  span= page.metadata.profile
 
 block content
   h1= page.title
   article.article
     section.content!= typogr(page.html).typogrify()
 
-    h3 Color Chips
-    div.colorchip
-      img(src=contents.colors[page.metadata.base + ".jpg"].url alt=page.metadata.base title=page.metadata.base class="img-fluid")
-      img(src=contents.colors[page.metadata.legend + ".jpg"].url alt=page.metadata.legend title=page.metadata.legend class="img-fluid")
-    div(class="card card-block legend-"+page.metadata.legend + " background-" + page.metadata.base)
-      h4.card-title Color Example
-      p.card-text Get a feel for these colors... feel them!
+    h3 Colorway
+    ul.list-group
+      li(class="list-group-item legend-"+page.metadata.legend + " background-" + page.metadata.base)
+          h4.card-title= page.metadata.colorway
+          p.card-text
+      li.list-group-item
+        ul.inline
+          li.colorchip
+            img(src=contents.colors[page.metadata.base + ".jpg"].url alt=page.metadata.base title=page.metadata.base class="img-fluid")
+          li.colorchip
+            img(src=contents.colors[page.metadata.legend + ".jpg"].url alt=page.metadata.legend title=page.metadata.legend class="img-fluid")
 
 block footer
   div.nav

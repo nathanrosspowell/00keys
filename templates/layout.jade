@@ -25,10 +25,10 @@ html(lang='en')
           ul(class="nav nav-pills pull-xs-right")
             ul(class="nav navbar-nav")
               li(class="nav-item active")
-                a(class="nav-link" href="#") Home 
+                a(class="nav-link" href=contents.index.url) Home 
                 span(class="sr-only") (current)
               li.nav-item
-                a(class="nav-link" href="#") About
+                a(class="nav-link" href=contents['about.md'].url) About
               li.nav-item
                 a(class="nav-link" href="#") Contact
         h3.text-muted= locals.name
