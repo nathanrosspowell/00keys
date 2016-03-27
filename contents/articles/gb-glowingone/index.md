@@ -1,9 +1,9 @@
 ---
-title: Glowing One
-author: baker
+title: The Megaton Vault Drop
+author: 00keys
 date: 2016-04-01
 type: gb
-gbtag: Glowing One GB
+gbtag: Megaton Vault Drop GB
 code: glowingone
 offers:
     - img: sa1
@@ -21,9 +21,11 @@ offers:
 links:
     - name: geekhack.org Interst Check
       url: https://geekhack.org/index.php?topic=80552
+    - name: /r/mechmarket Interst Check
+      url: https://redd.it/4brqtu
 template: groupbuy.jade
 ---
 
-A new entry in the 'Out of the Vault' series. Group buy will be starting on April 1st!
+A new entry in the 'Out of the Vault' series. The group buy will be starting on April 1st!
 
 <span class="more"> 
