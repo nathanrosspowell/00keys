@@ -8,7 +8,7 @@ author: 00keys
 date: 2016-04-01
 type: key
 code: mininuke-vv-yy-sa3
-id: 608 # 600 = Megaton Vault Drop, SA3
+id: 604 # 600 = Megaton Vault Drop, SA3
 tags: SA Row 3, Mini Nuke, Megaton Vault Drop GB, Special Fat Man
 template: key.jade  
 ---

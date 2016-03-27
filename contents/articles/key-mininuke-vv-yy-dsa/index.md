@@ -8,7 +8,7 @@ author: 00keys
 date: 2016-04-01
 type: key
 code: mininuke-vv-yy-dsa
-id: 508 # 500 = Megaton Vault Drop, DSA
+id: 504 # 500 = Megaton Vault Drop, DSA
 tags: DSA, Mini Nuke, Megaton Vault Drop GB, Special Fat Man
 template: key.jade  
 ---
