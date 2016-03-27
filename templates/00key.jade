@@ -7,7 +7,7 @@ block content
        div.row
         h1 Group Buys
         include author
-        each article in articles
+        each article in env.helpers.sortById(articles)
           if article.metadata.type == "gb"
             div(class="col-6")
               header
@@ -26,7 +26,7 @@ block content
       block keystitle
         h1 Keys
       include author
-      each article in articles
+      each article in env.helpers.sortById(articles)
         if article.metadata.type == "key"
           div(class="col-sm-6 col-md-3 col-lg-2")
             header

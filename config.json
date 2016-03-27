@@ -8,6 +8,7 @@
   "baseUrl" : "/00keys/",
   "plugins": [
     "./plugins/paginator.coffee",
+    "./plugins/sort.coffee",
     "wintersmith-tag"
   ],
   "tag": {
