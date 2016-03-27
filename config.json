@@ -41,7 +41,8 @@
   },
   "tag": {
     "articles": "keys",
-    "perPage": 99
+    "perPage": 99, 
+    "template": "tag-index.jade"
   }
 }
 
