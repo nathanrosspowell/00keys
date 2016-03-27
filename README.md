@@ -2,7 +2,7 @@
 
 # 00keys
 
-A website to showcase custom keycap designs
+A website to showcase custom keycap designs.
 
 ## Articles and Article Types
 
@@ -120,6 +120,6 @@ Automation is handled via [Grunt][grunt].
 6. Open a web browser and go to `localhost:8080/00keys`
 
 
-[wintersmit]: http://wintersmith.io/
+[wintersmith]: http://wintersmith.io/
 [nodejs]: https://nodejs.org/
 [grunt]: http://gruntjs.com/
