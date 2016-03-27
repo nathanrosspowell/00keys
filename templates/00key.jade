@@ -1,47 +1,54 @@
 
 extends layout
-
+block localdefines
 block content
   block gbs
     section
        div.row
         h1#gbs Group Buys
         include author
-        each article in env.helpers.sortById(articles)
-          if article.metadata.type == "gb"
-            div(class="col-6")
-              header
-                h2
-                  a(href=article.url)= article.title
-              section.content
-              section.content
-                if article.intro.length > 0
-                  img(src=contents.gbs[article.metadata.code + "-banner.png"].url alt=article.title class="img-fluid")
-                  != typogr(article.intro).typogrify()
-                if article.hasMore
-                  p.more
-                    a(class="btn btn-secondary" href=article.url role="button") View details &raquo;
+        - var gbs = typeof articles !== 'undefined' ? articles : env.helpers.getGBs(contents)
+        each article in env.helpers.sortById(gbs)
+          div(class="col-6")
+             header
+               h2
+                 a(href=article.url)= article.title
+             section.content
+             section.content
+               if article.intro.length > 0
+                 img(src=contents.gbs[article.metadata.code + "-banner.png"].url alt=article.title class="img-fluid")
+                 != typogr(article.intro).typogrify()
+               if article.hasMore
+                 p.more
+                   a(class="btn btn-secondary" href=article.url role="button") View details &raquo;
   block keys
     div.row
       block keystitle
         h1#keys Keys
       include author
-      each article in env.helpers.sortById(articles)
-        if article.metadata.type == "key"
-          div(class="col-sm-6 col-md-3 col-lg-2 keybox")
-            header
-              h3
-                a(href=article.url)= article.title
-              p.keyinfo
-                span= article.metadata.colorway 
-                br
-                span= "#" + article.metadata.id + " - " + article.metadata.profile
-            section.content.key-size
-              a(href=article.url)
-                  - var goodImg = contents.singlekeys[article.metadata.code + ".png"]
-                  - var useImg = typeof goodImg !== "undefined" ? goodImg : contents.singlekeys["missing.png"]
-                img(src=useImg.url alt=article.title title=article.title class="img-fluid")
-            section.keyboxspacer
+      - var keys = typeof articles !== 'undefined' ? articles : env.helpers.getKeys(contents)
+      - var limit = typeof articles !== 'undefined' ? 999 : 12
+      - var i = 0;
+      each article in env.helpers.sortById(keys)
+         if i === limit
+           - break
+         - i += 1
+         div(class="col-sm-6 col-md-3 col-lg-2 keybox")
+           header
+             h3
+               a(href=article.url)= article.title
+             p.keyinfo
+               span= article.metadata.colorway 
+               br
+               span= "#" + article.metadata.id + " - " + article.metadata.profile
+           section.content.key-size
+             a(href=article.url)
+                 - var goodImg = contents.singlekeys[article.metadata.code + ".png"]
+                 - var useImg = typeof goodImg !== "undefined" ? goodImg : contents.singlekeys["missing.png"]
+               img(src=useImg.url alt=article.title title=article.title class="img-fluid")
+           section.keyboxspacer
+      a(class="btn btn-primary" href=env.config.baseUrl+"keys/") More Keys
+
 block tags
   h1 All Tags
   ul.inline
