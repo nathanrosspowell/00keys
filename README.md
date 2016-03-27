@@ -6,16 +6,12 @@ A website to showcase custom keycap designs.
 
 ## Articles and Article Types
 
-All of the sub pages are held in the `articles` folder.
-A new folder has to be added for each article.
-The content has to be a file named `index.md`.
+There are three main content folders:
+* `/articles/` - used for sub pages (not really used)
+* `/keys/` - used for individual key entries
+* `/gbs/` - used for group buys
 
-There are two main type of articles: Group Buys (GBs) and Keys. This is indicated in the markdown (`.md`) files YAML frontmatter.
-
-* GBs - `type: gb`
-* Keys - `type: key`
-
-It is not enforce, but the style is to use the type at in the folder name e.g. `gb-glowingone` and `key-key-v12-bfk-yy-sa1`
+A new folder has to be added for each entry and the content has to be a file named `index.md`.
 
 ### Keys
 
@@ -27,8 +23,9 @@ This is never seen on the website, it's just used inside of the website generati
 
 ```
 [design]-[base color]-[legend color]-[profile type]
-v12-bfk-yy-sa1
-mininuke-ra-wa-dsa
+
+example: v12-bfk-yy-sa1
+example: mininuke-ra-wa-dsa
 ```
 
 The image for the key will be found in the folder `\contents\singlekeys\`.
@@ -45,12 +42,16 @@ base: VV # Signiture Plastics color code
 legend: YY # Signiture Plastics color code
 author: 00keys # Always use 00keys
 date: 2016-04-01 # Date added to website
-type: key # Specify its a key
 code: mininuke-vv-yy-sa1 # The code name
 id: 708 # 700 = Glowing One, SA1 # ID for  Custom sorting logic
 tags: SA Row 1, Mini Nuke, The Megaton Vault Drop GB, Special Fat Man # Comma seperated list for tags
 template: key.jade # Rendering template
 ```
+
+#### Desgin Descriptions
+
+There is a folder named `/keyinfo/` where you can put a markdown files with the design codename e.g. `mininuke.md`.
+This will be added to each key page that uses that as the design part of it's code e.g. `mininuke-vv-yy-sa1`.
 
 ### GBs
 
@@ -67,7 +68,6 @@ A GB has some complex front matter to allow the automatic generation of the GB p
 title: The Megaton Vault Drop # The name seen on the website
 author: 00keys # Always use 00keys
 date: 2016-04-01 # Date added to website
-type: gb # Specify a GB
 gbtag: The Megaton Vault Drop GB # Match an entry used in the 'tags' of the keys
 code: glowingone # The code name
 offers: # A lis of objects with each 'kit' in the GB

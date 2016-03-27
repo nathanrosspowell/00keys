@@ -18,6 +18,10 @@ block jumbotron
 block content
   if page.html.length > 0
     section.content!= typogr(page.html).typogrify()
+  - var info = contents.keyinfo[page.metadata.code.split("-")[0]+".md"]
+  if typeof info !== 'undefined'
+    div 
+      section.content!= typogr(info.html).typogrify()
   div
     ul.list-group
       li(class="list-group-item legend-"+page.metadata.legend + " background-" + page.metadata.base)
