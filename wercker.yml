@@ -1,4 +1,4 @@
--box: node:4.2.6-slim
+box: node:4.2.6-slim
 build:
   steps:
     - script:
@@ -7,6 +7,8 @@ build:
     - grunt
 deploy:
   steps:
+    - install-packages:
+        packages: git
     - lukevivier/gh-pages:
         token: '$GH_TOKEN'
         basedir: build
