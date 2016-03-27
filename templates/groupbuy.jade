@@ -25,7 +25,7 @@ block content
     img(src=contents.gbs[page.metadata.code + "-" + data.img + ".png"].url alt=page.metadata.base class="img-fluid")
     div.row 
       h1 Keys
-      each keypage in env.helpers.getArticlesByTag(contents, page.metadata.gbtag)
+      each keypage in env.helpers.sortById(env.helpers.getArticlesByTag(contents, page.metadata.gbtag))
         if keypage.metadata.type == "key"
           if env.helpers.getTagsFromArticle(keypage).indexOf(data.tagfilter) != -1
             div(class="col-sm-6 col-md-3 col-lg-2")

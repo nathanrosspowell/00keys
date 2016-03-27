@@ -1,7 +1,7 @@
 
 module.exports = (env, callback) ->
   sortById = (articles) ->
-    articles.sort (a, b) -> parseInt a.metadata.id - parseInt b.metadata.id
+    articles.sort (a, b) -> parseInt b.metadata.id - parseInt a.metadata.id
     return articles
 
   # add the article helper to the environment so we can use it later
