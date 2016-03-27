@@ -24,22 +24,28 @@ html(lang='en')
         nav
           ul(class="nav nav-pills pull-xs-right")
             ul(class="nav navbar-nav")
-              li(class="nav-item active")
-                a(class="nav-link" href=contents.index.url) Home 
-                span(class="sr-only") (current)
               li.nav-item
-                a(class="nav-link" href=contents['about.md'].url) About
               li.nav-item
-                a(class="nav-link" href="#") Contact
-        h3.text-muted= locals.name
+                a(class="nav-link" href=contents.index.url+"#gbs") Group Buys
+              li.nav-item
+                a(class="nav-link" href=contents.index.url+"#keys") Keys
+              li.nav-item
+                a(class="nav-link" href=contents.index.url+"#about") About
+              li.nav-item
+                a(class="nav-link" href=contents.index.url+"#contact") Contact
+        h3.text-muted
+          a(href=contents.index.url)= locals.name
       block nojumbotron
         div.jumbotron
           div.container
             block jumbotron
               h1.display-3 00keys
               p Custom designed keycaps for your mechanical keyboard.
-              p
-              a(class="btn btn-lg" href="#" role="button") More coming soon!
+              ul.inline
+                li
+                  a(class="btn btn-lg btn-primary" href=contents.articles["gb-glowingone"]["index.md"].url role="button") Latest Group Buy
+                li
+                  a(class="btn btn-lg btn-primary" href=contents.articles["key-v12-yca-bfk-sa1"]["index.md"].url role="button") Featured Key
       block allcontent
         block nocontent
           section
@@ -51,16 +57,26 @@ html(lang='en')
           section
             block backbutton
               div.nav
-                a(href=contents.index.url) &laquo; Home
+                a(class="btn btn-lg btn-primary" href=contents.index.url) &laquo; Home
+        block noabout
+          section
+            block about
+              h1 About
+              section#about
+                !=contents['about.md'].html
+        block nocontact
+          section
+            block contact
+              h1 Contact
+              section#contact
+                !=contents['contact.md'].html
         block nofooter
           section
             block footer
-              h1 About
-              section.about
-                !=contents['about.md'].html
-              section.copy
-                p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
-                  a(href='https://github.com/jnordberg/wintersmith') Wintersmith
+              section#footer
+                p &copy; #{ new Date().getFullYear() } - 00keys - Made by 
+                  a(href='http://www.nathanrosspowell.com')= locals.owner
+
     block scripts
       script(src=contents.js['jquery.min.js'].url)
       script(src=contents.js['tether.min.js'].url)

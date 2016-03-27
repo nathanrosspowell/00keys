@@ -13,5 +13,5 @@ tags: DSA, Mini Nuke, Megaton Vault Drop GB, Cola Classic
 template: key.jade
 ---
 
-<span class="more"> 
+
 

@@ -13,4 +13,4 @@ tags: SA Row 3, Vault 12, Megaton Vault Drop GB, The Glowing One
 template: key.jade
 ---
 
-<span class="more"> 
+

@@ -13,5 +13,5 @@ tags: DSA, Mini Nuke, Megaton Vault Drop GB, Special Fat Man
 template: key.jade  
 ---
 
-<span class="more"> 
+
 

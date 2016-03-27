@@ -13,5 +13,5 @@ tags: SA Row 1, Vault 87, Megaton Vault Drop GB, Vault Jumpsuit
 template: key.jade
 ---
 
-<span class="more"> 
+
 

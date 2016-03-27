@@ -12,6 +12,3 @@ id: 608 # 600 = Megaton Vault Drop, SA3
 tags: SA Row 3, Vault 87, Megaton Vault Drop GB, Vault Jumpsuit
 template: key.jade
 ---
-
-<span class="more"> 
-

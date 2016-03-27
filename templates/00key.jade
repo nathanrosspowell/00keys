@@ -5,7 +5,7 @@ block content
   block gbs
     section
        div.row
-        h1 Group Buys
+        h1#gbs Group Buys
         include author
         each article in env.helpers.sortById(articles)
           if article.metadata.type == "gb"
@@ -24,7 +24,7 @@ block content
   block keys
     div.row
       block keystitle
-        h1 Keys
+        h1#keys Keys
       include author
       each article in env.helpers.sortById(articles)
         if article.metadata.type == "key"

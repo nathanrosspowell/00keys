@@ -13,5 +13,5 @@ tags: SA Row 3, Mini Nuke, Megaton Vault Drop GB, Rad Hard
 template: key.jade
 ---
 
-<span class="more"> 
+
 

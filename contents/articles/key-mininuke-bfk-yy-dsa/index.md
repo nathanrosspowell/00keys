@@ -13,5 +13,5 @@ tags: DSA, Mini Nuke, Megaton Vault Drop GB, Vault Jumpsuit
 template: key.jade
 ---
 
-<span class="more"> 
+
 

@@ -13,5 +13,5 @@ tags: DSA, Mini Nuke, Megaton Vault Drop GB, Nuclear Data Orange
 template: key.jade
 ---
 
-<span class="more"> 
+
 

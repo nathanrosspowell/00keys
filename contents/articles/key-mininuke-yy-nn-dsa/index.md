@@ -13,5 +13,5 @@ tags: DSA, Mini Nuke, Megaton Vault Drop GB, Rad Hard
 template: key.jade
 ---
 
-<span class="more"> 
+
 

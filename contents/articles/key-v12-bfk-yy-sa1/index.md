@@ -11,6 +11,4 @@ code: v12-bfk-yy-sa1
 id: 709 # 700 = Megaton Vault Drop, SA1
 tags: SA Row 1, Vault 12, Megaton Vault Drop GB, Vault Jumpsuit
 template: key.jade
----
-
-<span class="more"> 
+---     
