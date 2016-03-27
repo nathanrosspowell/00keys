@@ -13,4 +13,4 @@ tags: DSA, Vault 12, Megaton Vault Drop GB, The Glowing One
 template: key.jade
 ---
 
-
+The base color of this key will be Glow In The Dark (GID).

@@ -17,16 +17,23 @@ block jumbotron
 
 block content
   if page.html.length > 0
+    h3 The Key
     section.content!= typogr(page.html).typogrify()
   - var info = contents.keyinfo[page.metadata.code.split("-")[0]+".md"]
   if typeof info !== 'undefined'
+    h3 Design
     div 
       section.content!= typogr(info.html).typogrify()
   div
+    h3 Colorway
     ul.list-group
       li(class="list-group-item legend-"+page.metadata.legend + " background-" + page.metadata.base)
           h4.card-title= page.metadata.colorway
-          p.card-text
+          - var codeSplits = page.metadata.code.split("-")
+          - var colorway = codeSplits[1] + "-" + codeSplits[2] + ".md"
+          - var colorInfo = contents.colorinfo[colorway]
+          if typeof colorInfo !== 'undefined'
+              p.card-text!= typogr(colorInfo.html).typogrify()
       li.list-group-item
         ul.inline
           li

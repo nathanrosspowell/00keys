@@ -53,6 +53,12 @@ template: key.jade # Rendering template
 There is a folder named `/keyinfo/` where you can put a markdown files with the design codename e.g. `mininuke.md`.
 This will be added to each key page that uses that as the design part of it's code e.g. `mininuke-vv-yy-sa1`.
 
+#### Color Descriptions
+
+There is a folder named `/colorinfo/` where you can put a markdown files with the color codename e.g. `bfk-yy.md`.
+This will be added to each key page that uses that as the design part of it's code e.g. `v87-bfk-yy-dsa`.
+
+
 ### GBs
 
 #### Code Name
