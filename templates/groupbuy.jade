@@ -24,13 +24,13 @@ block content
     p= "Kit Price: $" + data.price
     img(src=contents.gbs[page.metadata.code + "-" + data.img + ".png"].url alt=page.metadata.base class="img-fluid")
     div.row 
-      h1 Keys
+      h3 Keys
       each keypage in env.helpers.sortById(env.helpers.getArticlesByTag(contents, page.metadata.gbtag))
         if keypage.metadata.type == "key"
           if env.helpers.getTagsFromArticle(keypage).indexOf(data.tagfilter) != -1
-            div(class="col-sm-6 col-md-3 col-lg-2")
+            div(class="col-sm-6 col-md-3 col-lg-2 keybox")
               header
-                h2
+                h3
                   a(href=keypage.url)= keypage.title
                 p.keyinfo
                   span= keypage.metadata.colorway 
@@ -39,4 +39,5 @@ block content
               section.content.key-size
                 a(href=keypage.url)
                   img(src=contents.singlekeys[keypage.metadata.code + ".png"].url alt=keypage.title class="img-fluid")
+              section.keyboxspacer
   

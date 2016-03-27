@@ -28,9 +28,9 @@ block content
       include author
       each article in env.helpers.sortById(articles)
         if article.metadata.type == "key"
-          div(class="col-sm-6 col-md-3 col-lg-2")
+          div(class="col-sm-6 col-md-3 col-lg-2 keybox")
             header
-              h2
+              h3
                 a(href=article.url)= article.title
               p.keyinfo
                 span= article.metadata.colorway 
@@ -39,10 +39,11 @@ block content
             section.content.key-size
               a(href=article.url)
                 img(src=contents.singlekeys[article.metadata.code + ".png"].url alt=article.title class="img-fluid")
+            section.keyboxspacer
 block tags
   h1 All Tags
   ul.inline
-    each tag in env.helpers.getAllTags()
+    each tag in env.helpers.getAllTags().sort()
       li   
         a(class="btn btn-secondary" role="button" href=env.helpers.getTagHome(tag).url)= tag
     
