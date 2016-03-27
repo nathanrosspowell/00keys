@@ -171,6 +171,10 @@ section.keyboxspace {
   background-color: #ba1312;
 }
 
+.background-RA p a {
+  color:#212224;
+}
+
 .legend-WA {
   color:#e4dedd;
 }
@@ -187,12 +191,20 @@ section.keyboxspace {
   background-color: #ff6800;
 }
 
+.background-OAS p a {
+  color:#212224;
+}
+
 .legend-VV {
   color:#005d35;
 }
 
 .background-VV {
   background-color: #005d35;
+}
+
+.background-VV p a {
+  color:#212224;
 }
 
 .legend-YCA {
