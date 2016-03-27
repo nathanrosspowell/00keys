@@ -35,10 +35,12 @@ block content
               p.keyinfo
                 span= article.metadata.colorway 
                 br
-                span= article.metadata.profile
+                span= "#" + article.metadata.id + " - " + article.metadata.profile
             section.content.key-size
               a(href=article.url)
-                img(src=contents.singlekeys[article.metadata.code + ".png"].url alt=article.title class="img-fluid")
+                  - var goodImg = contents.singlekeys[article.metadata.code + ".png"]
+                  - var useImg = typeof goodImg !== "undefined" ? goodImg : contents.singlekeys["missing.png"]
+                img(src=useImg.url alt=article.title title=article.title class="img-fluid")
             section.keyboxspacer
 block tags
   h1 All Tags

@@ -38,6 +38,8 @@ block content
                   span= keypage.metadata.profile
               section.content.key-size
                 a(href=keypage.url)
-                  img(src=contents.singlekeys[keypage.metadata.code + ".png"].url alt=keypage.title class="img-fluid")
+                  - var goodImg = contents.singlekeys[keypage.metadata.code + ".png"]
+                  - var useImg = typeof goodImg !== "undefined" ? goodImg : contents.singlekeys["missing.png"]
+                  img(src=useImg.url alt=keypage.title title=keypage.title class="img-fluid")
               section.keyboxspacer
   
