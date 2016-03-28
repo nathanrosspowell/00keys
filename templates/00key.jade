@@ -8,7 +8,7 @@ block content
         h1#gbs Group Buys
         include author
         - var gbs = typeof articles !== 'undefined' ? articles : env.helpers.getGBs(contents)
-        each article in env.helpers.sortById(gbs)
+        each article in gbs
           div(class="col-6")
              header
                h2
@@ -18,9 +18,22 @@ block content
                if article.intro.length > 0
                  img(src=contents.gbs[article.metadata.code + "-banner.png"].url alt=article.title class="img-fluid")
                  != typogr(article.intro).typogrify()
-               if article.hasMore
-                 p.more
-                   a(class="btn btn-secondary" href=article.url role="button") View details &raquo;
+               ul.inline
+                 li
+                   if article.metadata.status == "Open"
+                     a.btn.btn-success(href=article.metadata.form role="button") Buy Now!
+                   else
+                     a.btn.btn-warning.disabled= "Groub Buy " + article.metadata.status
+                 if article.metadata.gblinks
+                   each gb in article.metadata.gblinks
+                     li 
+                       a.btn.btn-primary(href=gb.url role="button")= gb.name + " GB"
+                 if article.metadata.iclinks
+                   each ic in article.metadata.iclinks
+                     li 
+                       a.btn.btn-info(href=ic.url role="button")= ic.name + " IC"
+                 li
+                   a.btn.btn-secondary(href=article.url role="button") More details &raquo;
   block keys
     div.row
       block keystitle

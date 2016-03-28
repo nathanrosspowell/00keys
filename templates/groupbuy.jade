@@ -13,36 +13,55 @@ block jumbotron
 block content
   section.content!= typogr(page.html).typogrify()
   h2 Links
-  ul
-    for data in page.metadata.links
-      li
-        a(href=data.url)
-          span= data.name
+  ul.inline
+    li
+      if page.metadata.status == "Open"
+        a.btn.btn-success(href=page.metadata.form role="button") Buy Now!
+      else
+        a.btn.btn-warning.disabled= "Groub Buy " + page.metadata.status
+    if page.metadata.gblinks
+      each gb in page.metadata.gblinks
+        li 
+          a.btn.btn-primary(href=gb.url role="button")= gb.name + " IC"
+    if page.metadata.iclinks
+      each ic in page.metadata.iclinks
+        li 
+          a.btn.btn-info(href=ic.url role="button")= ic.name + " IC"
   for data in page.metadata.offers
     hr
     h2= data.name
     p= "Kit Price: $" + data.price
     img(src=contents.gbs[page.metadata.code + "-" + data.img + ".png"].url alt=page.metadata.base class="img-fluid")
-    div.row 
-      h3 Keys
-      each keypage in env.helpers.sortById(env.helpers.getArticlesByTag(contents, page.metadata.gbtag))
-        if keypage.metadata.type == "key"
-          if env.helpers.getTagsFromArticle(keypage).indexOf(data.tagfilter) != -1
-            div(class="col-sm-6 col-md-3 col-lg-2 keybox")
-              header
-                h3
-                  a(href=keypage.url)= keypage.title
-                p.keyinfo
-                  span= keypage.metadata.colorway 
-                  br
-                  span= keypage.metadata.profile
-              section.content.key-size
-                a(href=keypage.url)
-                  - var goodImg = contents.singlekeys[keypage.metadata.code + ".png"]
-                  - var useImg = typeof goodImg !== "undefined" ? goodImg : contents.singlekeys["missing.png"]
-                  img(src=useImg.url alt=keypage.title title=keypage.title class="img-fluid")
-              section.keyboxspacer
+    ul.inline
+      if page.metadata.status == "Open"
+        li
+          a.btn.btn-success(href=page.metadata.form role="button") Buy #{data.name}
+      li 
+        a.btn.btn-secondary(data-toggle="collapse" href="#keys-"+data.img aria-expanded="false" aria-controls="keys-"+data.img) Show Keys
+    div.collapse(id="keys-"+data.img)
+      div.row 
+        each keypage in env.helpers.sortById(env.helpers.getArticlesByTag(contents, page.metadata.gbtag))
+          if keypage.metadata.type == "key"
+            if env.helpers.getTagsFromArticle(keypage).indexOf(data.tagfilter) != -1
+               div(class="col-sm-6 col-md-3 col-lg-2 keybox")
+                 header
+                   h3
+                     a(href=keypage.url)= keypage.title
+                   p.keyinfo
+                     span= keypage.metadata.colorway 
+                     br
+                     span= keypage.metadata.profile
+                 section.content.key-size
+                   a(href=keypage.url)
+                     - var goodImg = contents.singlekeys[keypage.metadata.code + ".png"]
+                     - var useImg = typeof goodImg !== "undefined" ? goodImg : contents.singlekeys["missing.png"]
+                     img(src=useImg.url alt=keypage.title title=keypage.title class="img-fluid")
+                 section.keyboxspacer
   
 block noabout
 
 block nocontact
+
+block append scripts
+  script(src=contents.js['bootstrap-util.js'].url)
+  script(src=contents.js['bootstrap-collapse.js'].url)

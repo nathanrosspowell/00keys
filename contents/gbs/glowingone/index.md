@@ -5,6 +5,8 @@ date: 2016-04-01
 type: gb
 gbtag: Megaton Vault Drop GB
 code: glowingone
+status: Open
+form: https://docs.google.com/forms/d/1mR7WSDoUi1uYqpCcIEIR-ndKwOnJMRsumz8UChLjMxg/viewform 
 offers:
     - img: sa1
       name: SA Row 1 Kit
@@ -18,10 +20,10 @@ offers:
       name: DSA Kit
       price: 40
       tagfilter: DSA
-links:
-    - name: geekhack.org Interst Check
+iclinks:
+    - name: geekhack.org
       url: https://geekhack.org/index.php?topic=80552
-    - name: /r/mechmarket Interst Check
+    - name: /r/mechmarket
       url: https://redd.it/4brqtu
 template: groupbuy.jade
 ---
