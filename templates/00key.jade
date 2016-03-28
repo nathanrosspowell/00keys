@@ -55,7 +55,7 @@ block tags
   ul.inline
     each tag in env.helpers.getAllTags().sort()
       li   
-        a(class="btn btn-secondary" role="button" href=env.helpers.getTagHome(tag).url)= tag
-            &nbsp
-            span.label.label-pill.label-default= env.helpers.getArticlesByTag(contents,tag).length
+        a(class="btn btn-secondary" role="button" href=env.helpers.getTagHome(tag).url)= tag 
+          span &nbsp
+          span.label.label-pill.label-default= env.helpers.getArticlesByTag(contents,tag).length
     
