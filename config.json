@@ -1,8 +1,8 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "00keys - WIP",
-    "owner": "Nathan Ross Powell",
+    "name": "00keys",
+    "owner": "Nathan",
     "description": "Custom Keycaps"
   },
   "baseUrl" : "/00keys/",
@@ -10,6 +10,7 @@
     "./plugins/paginator_keys.coffee",
     "./plugins/paginator_gbs.coffee",
     "./plugins/sort.coffee",
+    "./plugins/taghelper.coffee",
     "wintersmith-tag"
   ],
   "tag": {
