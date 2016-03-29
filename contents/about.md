@@ -2,20 +2,8 @@
 view: none
 ---
 
-Wintersmith is made by [Johan Nordberg][1] and licensed under the [MIT-license][2].
-This footer text can be edited in about.md
+00keys designs and manufactures custom keycaps for your mechanical keyboards.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.
+Each set of designs that we create first goes through an 'interest check' (IC) phase. This is where fans can give their thoughts and feedback on whats being offered. Only the most popular designs will make grade.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-dolore eu fugiat nulla pariatur.
-
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-deserunt mollit anim id est laborum.
-
-
-[1]: http://johan-nordberg.com
-[2]: http://opensource.org/licenses/MIT
+With enough interest, a 'group buy' (GB) is held where a everyone pools together their orders so a large quantity of keys can be made. This allows us to sell our keycaps for a cheap as possible.
