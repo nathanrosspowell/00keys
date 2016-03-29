@@ -80,20 +80,26 @@ offers: # A lis of objects with each 'kit' in the GB
     - img: sa1
       name: SA Row 1 Kit
       price: 40
-      tagfilter: SA Row 1
+      tagfilter: 
+        - SA Row 1
     - img: sa3            # The section to locate the image '\contents\gbs\glowingone-sa3'
       name: SA Row 3 Kit  # The name of the kit which is seen on the website
       price: 40           # The price in USD
-      tagfilter: SA Row 3 # The 'tag' to filter the kets by, so all keys that match the gbtag and tagfiler will be listed
+      tagfilter:          # A list of tags to filter content by
+        - SA Row 3        # All content will match 'gbtag' and all tags in this list
     - img: dsa
       name: DSA Kit
       price: 40
-      tagfilter: DSA
-links: # A list of objects with important links
+      tagfilter: 
+        - DSA
+iclinks: # A list of objects with interest check links
     - name: geekhack.org Interst Check
       url: https://geekhack.org/index.php?topic=80552
     - name: /r/mechmarket Interst Check # The name seens on the website
       url: https://redd.it/4brqtu       # The URL that will be used
+gblinks: # The same as iclinks, but for Group Buys
+    - name: geekhack.org
+      url: https://geekhack.org/index.php?topic=76885
 template: groupbuy.jade # Rendering template
 ```
 
@@ -106,7 +112,7 @@ At the moment the only image type excpected in the templates is `.png`.
 
 This repository is linked to a wercker application that will automatically deploy any changes that are made.
 
-This works for both edit mades in-browser viavia `github.com` and all pushes.
+This works for both edit mades in-browser viavia `github.com` and all pushes. If you need to be a contributor, you can be added to the white list so you can make instant edits.
 
 ### Local Instal
 
