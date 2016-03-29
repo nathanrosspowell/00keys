@@ -8,7 +8,12 @@ block content
         h1#gbs Group Buys
         include author
         - var gbs = typeof articles !== 'undefined' ? articles : env.helpers.getGBs(contents)
+        - var limit = typeof articles !== 'undefined' ? 999 : 2
+        - var i = 0;
         each article in gbs
+          if i === limit
+            - break
+          - i += 1
           div(class="col-6")
              header
                h2
@@ -23,17 +28,19 @@ block content
                    if article.metadata.status == "Open"
                      a.btn.btn-success(href=article.metadata.form role="button") Buy Now!
                    else
-                     a.btn.btn-warning.disabled= "Groub Buy " + article.metadata.status
+                     a.btn.btn-success.disabled= "Groub Buy " + article.metadata.status
                  if article.metadata.gblinks
                    each gb in article.metadata.gblinks
-                     li 
+                     li
                        a.btn.btn-primary(href=gb.url role="button")= gb.name + " GB"
                  if article.metadata.iclinks
                    each ic in article.metadata.iclinks
-                     li 
+                     li
                        a.btn.btn-info(href=ic.url role="button")= ic.name + " IC"
                  li
                    a.btn.btn-secondary(href=article.url role="button") More details &raquo;
+       if i === limit
+         a(class="btn btn-secondary" href=env.config.baseUrl+"gbs/") More Group Buys
   block keys
     div.row
       block keystitle
@@ -51,9 +58,9 @@ block content
              h3
                a(href=article.url)= article.title
              p.keyinfo
-               span= article.metadata.colorway 
+               span= article.metadata.colorway
                br
-               span= "#" + article.metadata.id + " - " + article.metadata.profile
+               span= article.metadata.profile
            section.content.key-size
              a(href=article.url)
                  - var goodImg = contents.singlekeys[article.metadata.code + ".png"]
@@ -61,14 +68,14 @@ block content
                img(src=useImg.url alt=article.title title=article.title class="img-fluid")
            section.keyboxspacer
       if i === limit
-        a(class="btn btn-primary" href=env.config.baseUrl+"keys/") More Keys
+        a(class="btn btn-secondary" href=env.config.baseUrl+"keys/") More Keys
 
 block tags
   h1 All Tags
   ul.inline
     each tag in env.helpers.getAllTags().sort()
-      li   
-        a(class="btn btn-secondary" role="button" href=env.helpers.getTagHome(tag).url)= tag 
+      li
+        a(class="btn btn-secondary" role="button" href=env.helpers.getTagHome(tag).url)= tag
           span &nbsp
           span.label.label-pill.label-default= env.helpers.getArticlesByTag(contents,tag).length
-    
+

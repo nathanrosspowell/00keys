@@ -215,3 +215,35 @@ section.keyboxspace {
   background-color: #CDCEAF;
 }
 
+.legend-GSM {
+  color:#455460;
+}
+
+.background-GSM {
+  background-color: #455460;
+}
+
+.legend-YCE {
+  color:#ffdb58;
+}
+
+.background-YCE {
+  background-color: #ffdb58;
+}
+
+.legend-RN {
+  color:#a51b1b;
+}
+
+.background-RN {
+  background-color: #a51b1b;
+}
+
+.legend-TM {
+  color:#d9c9a8;
+}
+
+.background-TM {
+  background-color: #d9c9a8;
+}
+

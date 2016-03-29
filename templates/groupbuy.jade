@@ -2,13 +2,15 @@ extends layout
 
 block append vars
   - bodyclass = 'article-detail'
-  
+
 block prepend title
   | #{ page.title + ' - '}
 
 block jumbotron
   h1= page.title
-  img(src=contents.gbs[page.metadata.code + "-jumbotron.png"].url alt=page.metadata.base class="img-fluid center-block")
+  - var jumboImg = contents.gbs[page.metadata.code + "-jumbotron.png"]
+  - var imgToUse = typeof jumboImg !== 'undefined' ? jumboImg : contents.gbs[page.metadata.code + "-banner.png"]
+  img(src=imgToUse.url alt=page.metadata.base class="img-fluid center-block")
 
 block content
   section.content!= typogr(page.html).typogrify()
@@ -18,14 +20,14 @@ block content
       if page.metadata.status == "Open"
         a.btn.btn-success(href=page.metadata.form role="button") Buy Now!
       else
-        a.btn.btn-warning.disabled= "Groub Buy " + page.metadata.status
+        a.btn.btn-success.disabled= "Groub Buy " + page.metadata.status
     if page.metadata.gblinks
       each gb in page.metadata.gblinks
-        li 
-          a.btn.btn-primary(href=gb.url role="button")= gb.name + " IC"
+        li
+          a.btn.btn-primary(href=gb.url role="button")= gb.name + " GB"
     if page.metadata.iclinks
       each ic in page.metadata.iclinks
-        li 
+        li
           a.btn.btn-info(href=ic.url role="button")= ic.name + " IC"
   for data in page.metadata.offers
     hr
@@ -36,28 +38,27 @@ block content
       if page.metadata.status == "Open"
         li
           a.btn.btn-success(href=page.metadata.form role="button") Buy #{data.name}
-      li 
+      li
         a.btn.btn-secondary(data-toggle="collapse" href="#keys-"+data.img aria-expanded="false" aria-controls="keys-"+data.img) Show Keys
     div.collapse(id="keys-"+data.img)
-      div.row 
+      div.row
         each keypage in env.helpers.sortById(env.helpers.getArticlesByTag(contents, page.metadata.gbtag))
-          if keypage.metadata.type == "key"
-            if env.helpers.getTagsFromArticle(keypage).indexOf(data.tagfilter) != -1
-               div(class="col-sm-6 col-md-3 col-lg-2 keybox")
-                 header
-                   h3
-                     a(href=keypage.url)= keypage.title
-                   p.keyinfo
-                     span= keypage.metadata.colorway 
-                     br
-                     span= keypage.metadata.profile
-                 section.content.key-size
-                   a(href=keypage.url)
-                     - var goodImg = contents.singlekeys[keypage.metadata.code + ".png"]
-                     - var useImg = typeof goodImg !== "undefined" ? goodImg : contents.singlekeys["missing.png"]
-                     img(src=useImg.url alt=keypage.title title=keypage.title class="img-fluid")
-                 section.keyboxspacer
-  
+          if env.helpers.passesTagFilter(keypage, data.tagfilters)
+             div(class="col-sm-6 col-md-3 col-lg-2 keybox")
+               header
+                 h3
+                   a(href=keypage.url)= keypage.title
+                 p.keyinfo
+                   span= keypage.metadata.colorway
+                   br
+                   span= keypage.metadata.profile
+               section.content.key-size
+                 a(href=keypage.url)
+                   - var goodImg = contents.singlekeys[keypage.metadata.code + ".png"]
+                   - var useImg = typeof goodImg !== "undefined" ? goodImg : contents.singlekeys["missing.png"]
+                   img(src=useImg.url alt=keypage.title title=keypage.title class="img-fluid")
+               section.keyboxspacer
+
 block noabout
 
 block nocontact
