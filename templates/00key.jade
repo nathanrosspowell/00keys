@@ -13,6 +13,8 @@ block content
         each article in gbs
           if i === limit
             - break
+          if i > 0
+            hr
           - i += 1
           div(class="col-6")
              header
@@ -21,7 +23,8 @@ block content
              section.content
              section.content
                if article.intro.length > 0
-                 img(src=contents.gbs[article.metadata.code + "-banner.png"].url alt=article.title class="img-fluid")
+                 a(href=article.url)
+                     img(src=contents.gbs[article.metadata.code + "-banner.png"].url alt=article.title class="img-fluid")
                  != typogr(article.intro).typogrify()
                ul.inline
                  li
@@ -37,8 +40,6 @@ block content
                    each ic in article.metadata.iclinks
                      li
                        a.btn.btn-info(href=ic.url role="button")= ic.name + " IC"
-                 li
-                   a.btn.btn-secondary(href=article.url role="button") More details &raquo;
        if i === limit
          a(class="btn btn-secondary" href=env.config.baseUrl+"gbs/") More Group Buys
   block keys
