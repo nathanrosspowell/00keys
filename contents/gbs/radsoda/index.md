@@ -1,7 +1,7 @@
 ---
 title: Rad Soda
 author: 00keys
-date: 2015-04-01
+date: 2015-07-01
 gbtag: Rad Soda GB
 code: radsoda
 status: Completed
