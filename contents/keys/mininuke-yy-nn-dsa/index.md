@@ -6,7 +6,7 @@ base: YY
 legend: NN
 author: 00keys
 date: 2016-04-01
-type: key
+gb: megatonvaultdrop
 code: mininuke-yy-nn-dsa
 id: 501 # 500 = Megaton Vault Drop, DSA
 tags: DSA, Mini Nuke, Megaton Vault Drop GB, Rad Hard

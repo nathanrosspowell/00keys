@@ -4,8 +4,8 @@ author: 00keys
 date: 2016-04-01
 type: gb
 gbtag: Megaton Vault Drop GB
-code: glowingone
-status: Coming Soon! # Change to 'Open' to display the link to the form
+code: megatonvaultdrop
+status: Coming April 1st! # Change to 'Open' to display the link to the form
 form: https://docs.google.com/forms/d/1mR7WSDoUi1uYqpCcIEIR-ndKwOnJMRsumz8UChLjMxg/viewform 
 offers:
     - img: sa1

@@ -6,7 +6,7 @@ base: YCA
 legend: BFK
 author: 00keys
 date: 2016-04-01
-type: key
+gb: megatonvaultdrop
 code: v12-yca-bfk-dsa
 id: 510 # 500 = Megaton Vault Drop, DSA
 tags: DSA, Vault 12, Megaton Vault Drop GB, The Glowing One

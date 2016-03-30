@@ -59,7 +59,7 @@ html(lang='en')
               p Custom designed keycaps for your mechanical keyboard.
               ul.inline
                 li
-                  a(class="btn btn-lg btn-primary" href=contents.gbs.glowingone["index.md"].url role="button") Latest Group Buy
+                  a(class="btn btn-lg btn-primary" href=contents.gbs.megatonvaultdrop["index.md"].url role="button") Latest Group Buy
                 li
                   a(class="btn btn-lg btn-primary" href=contents.keys["v12-yca-bfk-sa1"]["index.md"].url role="button") Featured Key
       block allcontent
@@ -73,19 +73,21 @@ html(lang='en')
           section
             block backbutton
               div.nav
-                a(class="btn btn-lg btn-primary" href=contents.index.url) &laquo; Home
+                a(class="btn btn-primary" href=contents.index.url) &laquo; Home
         block noabout
-          section
-            block about
-              h1 About
-              section#about
-                !=contents['about.md'].html
+          if typeof pageNum === 'undefined'
+            section
+              block about
+                h1 About
+                section#about
+                  !=contents['about.md'].html
         block nocontact
-          section
-            block contact
-              h1 Contact
-              section#contact
-                !=contents['contact.md'].html
+          if typeof pageNum === 'undefined'
+            section
+              block contact
+                h1 Contact
+                section#contact
+                  !=contents['contact.md'].html
         block nofooter
           section
             block footer

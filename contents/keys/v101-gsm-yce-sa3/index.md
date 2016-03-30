@@ -6,7 +6,7 @@ base: GSM
 legend: YCE
 author: 00keys
 date: 2016-04-01
-type: key
+gb: junktown
 code: v101-gsm-yce-sa3
 id: 400 # 400 = Junktown Keys
 tags: SA Row 3, Vault 101, Junktown Keys GB, Vault Door

@@ -14,6 +14,19 @@ block jumbotron
   span= page.metadata.colorway 
   span= " - "
   span= page.metadata.profile
+  - var gbfolder = contents.gbs[ page.metadata.gb ]
+  - var gbPage = typeof gbfolder !== 'undefined' ? gbfolder['index.md'] : undefined
+  if gbPage
+    if gbPage.metadata.status != "Completed"
+      p
+        if gbPage.metadata.status == "Open"
+          a.btn.btn-success(href=gbPage.url role="button") Buy Now!
+        else
+          a.btn.btn-success(href=gbPage.url role="button")= "Groub Buy " + gbPage.metadata.status
+    else
+      p
+      a.btn.btn-secondary(href=gbPage.url role="button")= "Groub Buy " + gbPage.metadata.status
+
 
 block content
   if page.html.length > 0

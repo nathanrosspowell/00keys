@@ -30,9 +30,6 @@ block content
                      img(src=contents.gbs[article.metadata.code + "-banner.png"].url alt=article.title class="img-fluid center-block")
                  br
                  != typogr(article.intro).typogrify()
-               ul.inline
-                 li
-                   a.btn.btn-secondary(href=article.url role="button") More details &raquo;
        if i === limit
          a(class="btn btn-secondary" href=env.config.baseUrl+"gbs/") More Group Buys
   block keys

@@ -6,7 +6,7 @@ base: YCA
 legend: BFK
 author: 00keys
 date: 2016-04-01
-type: key
+gb: megatonvaultdrop
 code: v12-yca-bfk-sa3
 id: 610 # 600 = Megaton Vault Drop, SA3
 tags: SA Row 3, Vault 12, Megaton Vault Drop GB, The Glowing One
