@@ -37,7 +37,7 @@ block content
     h3 Design
     div 
       section.content!= typogr(info.html).typogrify()
-  div
+  section
     h3 Colorway
     ul.list-group
       li(class="list-group-item legend-"+page.metadata.legend + " background-" + page.metadata.base)
@@ -53,6 +53,12 @@ block content
             img.colorchip(src=contents.colors[page.metadata.base + ".png"].url alt=page.metadata.base title=page.metadata.base class="img-fluid")
           li
             img.colorchip(src=contents.colors[page.metadata.legend + ".png"].url alt=page.metadata.legend title=page.metadata.legend class="img-fluid")
+  - var allPics = contents.gallery['index.md'].metadata.pics
+  - var pics = allPics.filter(function (pic) { return pic.keys.indexOf(page.metadata.code) != -1 }).reverse()
+  if pics.length > 0
+    section
+      h3 Pictures
+        include ./piccarousel.jade
 
 block tags
   h3 Tags
