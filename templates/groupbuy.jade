@@ -17,10 +17,13 @@ block content
   h2 Links
   ul.inline
     li
-      if page.metadata.status == "Open"
+      if page.metadata.status == "Completed"
+        a.btn.btn-secondary.disabled= "Groub Buy " + page.metadata.status
+      else if page.metadata.status == "Open"
         a.btn.btn-success(href=page.metadata.form role="button") Buy Now!
-      else
+      else 
         a.btn.btn-success.disabled= "Groub Buy " + page.metadata.status
+
     if page.metadata.gblinks
       each gb in page.metadata.gblinks
         li
