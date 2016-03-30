@@ -16,10 +16,10 @@ div#carousel-example-generic.carousel.slide(data-ride="carousel")
         div.carousel-item(class=extraClass)
           img(src=pic.src alt=pic.title title=pic.title)
           div.carousel-caption
-            h2= pic.title
-            p
+            p.carousel-title= pic.title
+            p.carousel-sub
               if typeof pic.url !== 'undefined'
-                a(href=pic.url alt="Picture Credit: "+pic.credit title="Picture Credit: "+pic.credit )= pic.credit
+                a.carousel-sub(href=pic.url alt="Picture Credit: "+pic.credit title="Picture Credit: "+pic.credit )= pic.credit
               else
                 #{ pic.credit }
 

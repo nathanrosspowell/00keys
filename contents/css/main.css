@@ -26,6 +26,17 @@ h1, h2, h3, h4 {
     transform: translateY(-25%);
 }
 
+.carousel-title {
+    font-family: Overseer, Arial;
+    font-size: 36px;
+}
+
+p.carousel-sub, a.carousel-sub {
+    font-family: Arial;
+    font-size: 24px;
+    text-shadow: 1px 1px #000;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
