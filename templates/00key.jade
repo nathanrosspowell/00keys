@@ -4,7 +4,7 @@ extends layout
 block content
   block gbs
     section
-       div.row
+      div.row
         h1#gbs Group Buys
         include author
         - var gbs = typeof articles !== 'undefined' ? articles : env.helpers.getGBs(contents)
@@ -60,6 +60,14 @@ block content
            section.keyboxspacer
       if i === limit
         a(class="btn btn-secondary" href=env.config.baseUrl+"keys/") More Keys
+  block gallery
+    section
+      div.row
+        h1#gallery Gallery
+          - var allPics = contents.gallery['index.md'].metadata.pics
+          - var pics = env.helpers.shuffle(allPics).slice(0,3)
+          include ./piccarousel.jade
+        a(class="btn btn-secondary" href=env.config.baseUrl+"gallery/") More Pictures
 
 block tags
   h1 All Tags

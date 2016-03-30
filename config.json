@@ -12,6 +12,7 @@
     "./plugins/paginator_gbs.coffee",
     "./plugins/sort.coffee",
     "./plugins/filter.coffee",
+    "./plugins/shuffle.coffee",
     "wintersmith-tag"
   ],
   "tag": {
