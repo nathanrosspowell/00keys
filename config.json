@@ -6,7 +6,7 @@
     "description": "Custom Keycaps"
   },
   "baseUrl" : "/00keys/",
-  "output": "../00keys.com/",
+  "output": "./build/",
   "plugins": [
     "./plugins/paginator_keys.coffee",
     "./plugins/paginator_gbs.coffee",
