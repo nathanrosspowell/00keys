@@ -114,7 +114,7 @@ This repository is linked to a wercker application that will automatically deplo
 
 This works for both edit mades in-browser viavia `github.com` and all pushes. If you need to be a contributor, you can be added to the white list so you can make instant edits.
 
-### Local Instal
+### Local Install
 
 This project uses [Wintersmith][wintersmith] which is a static site generator based on [Node.js][nodejs]. 
 Automation is handled via [Grunt][grunt].
