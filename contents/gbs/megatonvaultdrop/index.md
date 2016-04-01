@@ -28,6 +28,9 @@ iclinks:
       url: https://geekhack.org/index.php?topic=80552
     - name: /r/mechmarket
       url: https://redd.it/4brqtu
+gblinks:
+    - name: geekhack.org
+      url: https://geekhack.org/index.php?topic=80976.0
 template: groupbuy.jade
 ---
 
