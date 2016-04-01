@@ -57,8 +57,9 @@ block content
   - var pics = allPics.filter(function (pic) { return pic.keys.indexOf(page.metadata.code) != -1 }).reverse()
   if pics.length > 0
     section
-      h3 Pictures
-        include ./piccarousel.jade
+      section
+          h3 Pictures
+          include ./piccarousel.jade
 
 block tags
   h3 Tags

@@ -64,7 +64,7 @@ block content
        h1#gallery Gallery
          - var allPics = contents.gallery['index.md'].metadata.pics
          - var pics = env.helpers.shuffle(allPics).slice(0,3)
-         include ./piccarousel.jade
+       include ./piccarousel.jade
        a(class="btn btn-secondary" href=env.config.baseUrl+"gallery/") More Pictures
 
 block tags

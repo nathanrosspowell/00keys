@@ -28,12 +28,10 @@ h1, h2, h3, h4 {
 
 .carousel-title {
     font-family: Overseer, Arial;
-    font-size: 36px;
 }
 
 p.carousel-sub, a.carousel-sub {
     font-family: Arial;
-    font-size: 24px;
     text-shadow: 1px 1px #000;
 }
 
