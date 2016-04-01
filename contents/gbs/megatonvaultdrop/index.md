@@ -61,4 +61,9 @@ From **April 1st to May 1st**, with final invoice payment due by **May 7th**.  I
 Current Shipping ETA
 ---------------------
 
-**Mid-Late July** (depends on SP's production schedule, and subject to change); International orders will ship first
+**Mid-Late July** (depends on SP's production schedule, and subject to change); International orders will ship first. 
+
+Compatibility 
+-------
+
+These keys are for Cherry MX compatible switches only. 
