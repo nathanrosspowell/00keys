@@ -35,6 +35,11 @@ p.carousel-sub, a.carousel-sub {
     text-shadow: 1px 1px #000;
 }
 
+.team-img {
+    height: 64px;
+    width: 64px;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,

@@ -80,6 +80,23 @@ html(lang='en')
                 h1 About
                 section#about
                   !=contents['about.md'].html
+            section
+              block howgbswork
+                h1 How Group Buys Work
+                section#howgbswork
+                  !=contents['how_gbs_work.md'].html
+            section
+              block team
+                h1 Team
+                section#team
+                  each person in ["00zeR0", "mogo", "harlw", "nathanrosspowell"]
+                    - var personPage = contents.team[person+'.md']
+                    div.media
+                      a.media-left(href=personPage.metadata.url)
+                        img.media-objecti.team-img(src=contents.team[person+".png"].url alt=person title=person)
+                      div.media-body
+                        h4.media-heading= person
+                        !=personPage.html
         block nocontact
           if typeof pageNum === 'undefined'
             section
