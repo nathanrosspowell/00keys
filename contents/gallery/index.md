@@ -48,5 +48,13 @@ pics:
       url: http://nathanrosspowell.com
       keys:
         - v101-gsm-yce-sa3
+    - src: http://i.imgur.com/rovICMZ.jpg
+      title: Nuclear Numpad
+      credit: Nathan Ross Powell
+      url: http://nathanrosspowell.com
+      keys:
+        - v101-gsm-yce-sa3
+        - v111-gsm-yce-sa3
+        - mininuke-rn-tm-sa3
 ---
 
