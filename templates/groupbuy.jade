@@ -12,7 +12,12 @@ block jumbotron
   - var imgToUse = typeof jumboImg !== 'undefined' ? jumboImg : contents.gbs[page.metadata.code + "-banner.png"]
   img(src=imgToUse.url alt=page.metadata.base class="img-fluid center-block")
   br
-  a.btn.btn-secondary.btn-sm(href="#howgbswork") Learn how Group Buys work
+  ul.inline
+    if page.metadata.status == "Open"
+      li
+        a.btn.btn-success(href=page.metadata.form role="button") Buy Now!
+    li
+      a.btn.btn-secondary.btn-sm(href="#howgbswork") Learn how Group Buys work
 
 block content
   section.content!= typogr(page.html).typogrify()

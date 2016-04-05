@@ -7,7 +7,7 @@ block content
        h1#gbs Group Buys
        include author
        - var gbs = typeof articles !== 'undefined' ? articles : env.helpers.getGBs(contents)
-       - var limit = typeof articles !== 'undefined' ? 999 : 2
+       - var limit = typeof articles !== 'undefined' ? 999 : 1 
        - var i = 0;
        each article in gbs
          if i === limit
