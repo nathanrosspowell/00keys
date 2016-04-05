@@ -35,6 +35,14 @@ p.carousel-sub, a.carousel-sub {
     text-shadow: 1px 1px #000;
 }
 
+.gallery {
+    max-height: 70vh;
+}
+
+.gallery {
+    height: 100%;
+}
+
 .team-img {
     height: 64px;
     width: 64px;
