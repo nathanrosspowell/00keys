@@ -2,7 +2,7 @@
 view: none
 ---
 
-00keys designs and manufactures custom keycaps for your mechanical keyboards.
+00keys (pronounced Double Loki's or Double-oh keys) designs and manufactures custom keycaps for your mechanical keyboards.
 
 Each set of designs that we create first goes through an 'interest check' (IC) phase. This is where fans can give their thoughts and feedback on whats being offered. Only the most popular designs will make grade.
 
