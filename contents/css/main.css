@@ -36,12 +36,24 @@ p.carousel-sub, a.carousel-sub {
 }
 
 .gallery {
-    height: 70vh;
+    height: 80vh;
+}
+
+@media only screen and (max-width: 47.9em) { 
+    .gallery {
+        height: 30vh;
+    }
+}
+
+@media only screen and (max-width: 61.9em) { 
+    .gallery {
+        height: 50vh;
+    }
 }
 
 .gallery-item {
-    height: 100%;
- position: absolute;
+   height: 100%;
+   position: absolute;
    left: 50%;
    top: 50%;
    -webkit-transform: translateY(-50%) translateX(-50%);
