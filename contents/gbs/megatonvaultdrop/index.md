@@ -31,6 +31,8 @@ iclinks:
 gblinks:
     - name: geekhack.org
       url: https://geekhack.org/index.php?topic=80976.0
+    - name: /r/mechmarket
+      url: https://redd.it/4cwwbv
 template: groupbuy.jade
 ---
 

@@ -36,11 +36,21 @@ p.carousel-sub, a.carousel-sub {
 }
 
 .gallery {
-    max-height: 70vh;
+    height: 70vh;
 }
 
-.gallery {
+.gallery-item {
     height: 100%;
+ position: absolute;
+   left: 50%;
+   top: 50%;
+   -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 
 .team-img {

@@ -14,7 +14,7 @@ div#carousel-example-generic.carousel.slide(data-ride="carousel")
         if i === 0
           - extraClass = "active"
         div.carousel-item.gallery(class=extraClass)
-          img.gallery.img-fluid.center-block(src=pic.src alt=pic.title title=pic.title)
+          img.gallery-item.center-block(src=pic.src alt=pic.title title=pic.title)
           div.carousel-caption
             h3.carousel-title.hidden-sm-down= pic.title
             p.carousel-sub.hidden-sm-down
