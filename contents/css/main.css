@@ -56,7 +56,9 @@ p.carousel-sub, a.carousel-sub {
    position: absolute;
    left: 50%;
    top: 50%;
+   -ms-transform: translateY(-50%) translateX(-50%);
    -webkit-transform: translateY(-50%) translateX(-50%);
+   transform: translateY(-50%) translateX(-50%);
 }
 
 .vcenter {
