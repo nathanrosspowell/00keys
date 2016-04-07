@@ -107,6 +107,34 @@ template: groupbuy.jade # Rendering template
 
 At the moment the only image type excpected in the templates is `.png`.
 
+There is a dedicated gallery page which shows a carousel of images. This feature can also be at the bottom of the individual key pages. The data all comes from `gallery\index.md` where there is a section to list an image with a credit and a list of the codenames of keys that are featured in the image.
+
+```YAML
+pics:
+  - src: http://i.imgur.com/fJOatsk.jpg
+    title: Fallout Family
+    credit: Nathan Ross Powell
+    url: http://nathanrosspowell.com
+    keys:
+      - mininuke-ra-wa-dsa
+      - mininuke-rn-tm-sa3
+      - mininuke-rn-tm-sa1
+      - mininuke-rn-tm-dsa
+      - v111-gsm-yce-dsa
+      - v111-gsm-yce-sa3
+      - v111-gsm-yce-sa1
+      - nukacola-ra-wa-dsa
+      - nukacola-polyblue-wa-dsa
+  - src: http://i.imgur.com/Mcft6qp.jpg
+    title: Vault 101 in Jumpsuit Colors
+    credit: Nathan Ross Powell
+    url: http://nathanrosspowell.com
+    keys:
+      - v101-bfk-yy-sa3
+```
+
+For each keycode listed in `keys`, the image will be shown on the individual key page.
+
 
 ## Editing
 
