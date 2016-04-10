@@ -53,7 +53,7 @@ block content
     div.collapse(id="keys-"+data.img)
       div.row
         each keypage in env.helpers.sortById(env.helpers.getArticlesByTag(contents, page.metadata.gbtag))
-          if env.helpers.passesTagFilter(keypage, data.tagfilters)
+          if env.helpers.passesTagFilter(keypage, data.tagfilters) === true
              div(class="col-sm-6 col-md-3 col-lg-2 keybox")
                header
                  h3

@@ -97,6 +97,15 @@ html(lang='en')
                       div.media-body
                         h4.media-heading= person
                         !=personPage.html
+            section
+              block friends
+                h1 Friends
+                section#friends
+                  - var friends = contents['friends.md'].metadata.friends
+                  ul 
+                    each friend in friends
+                      li 
+                        a(href=friend.url title=friend.title alt=friend.title)= friend.title
         block nocontact
           if typeof pageNum === 'undefined'
             section

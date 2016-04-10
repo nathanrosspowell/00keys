@@ -33,6 +33,8 @@ gblinks:
       url: https://geekhack.org/index.php?topic=80976.0
     - name: /r/mechmarket
       url: https://redd.it/4cwwbv
+    - name: Deskthority
+      url: https://deskthority.net/group-buys-f50/out-of-the-vault-the-megaton-vault-drop-ft-the-glowing-one-open-t13506.html
 template: groupbuy.jade
 ---
 

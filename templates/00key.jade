@@ -54,8 +54,8 @@ block content
                    span= article.metadata.profile
                section.content.key-size
                  a(href=article.url)
-                      - var goodImg = contents.singlekeys[article.metadata.code + ".png"]
-                     - var useImg = typeof goodImg !== "undefined" ? goodImg : contents.singlekeys["missing.png"]
+                   - var goodImg = contents.singlekeys[article.metadata.code + ".png"]
+                   - var useImg = typeof goodImg !== "undefined" ? goodImg : contents.singlekeys["missing.png"]
                    img(src=useImg.url alt=article.title title=article.title class="img-fluid")
                section.keyboxspacer
            if i === limit
