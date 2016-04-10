@@ -13,5 +13,4 @@ tags: SA Row 3, Vault 13, Out Of The Vault - Series II GB, Irradiated Vaults, Ir
 template: key.jade
 ---
 
-
-
+The legend on this key might seem a bit hard to see, but that is becaues the plastic used is actually glow in the dark!
