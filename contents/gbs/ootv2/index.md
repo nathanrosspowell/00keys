@@ -4,7 +4,7 @@ author: 00keys
 date: 2014-12-19
 type: gb
 gbtag: Out Of The Vault - Series II GB
-code: ootv2
+code: ootvs2
 status: Completed
 offers:
   - img: parent
