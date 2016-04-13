@@ -10,17 +10,17 @@ form: https://docs.google.com/forms/d/1mR7WSDoUi1uYqpCcIEIR-ndKwOnJMRsumz8UChLjM
 offers:
     - img: sa1
       name: SA Row 1 Kit
-      price: 40
+      price: 25
       tagfilters:
         - SA Row 1
     - img: sa3
       name: SA Row 3 Kit
-      price: 40
+      price: 25
       tagfilters:
         - SA Row 3
     - img: dsa
       name: DSA Kit
-      price: 40
+      price: 25
       tagfilters:
         - DSA
 iclinks:
@@ -45,10 +45,7 @@ Welcome to the the latest entry in the Out of the Vault series!
 Pricing
 -------
 
-Each profile set is $40 with free shipping to CONUS locations. You may order as many or as few as you like of any of the following keycap sets. 
-
-- **10% off** -  2 sets are purchased, Pick-A-Profile
-- **20% off** -  3, or more sets purchased, Pick-A-Profile.
+Each profile set is $25 with free shipping to CONUS locations. You may order as many or as few as you like of any of the following keycap sets, Pick-A-Profile. 
 
 Shippping
 ---------
