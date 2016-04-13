@@ -50,24 +50,25 @@ block content
           a.btn.btn-success(href=page.metadata.form role="button") Buy #{data.name}
       li
         a.btn.btn-secondary(data-toggle="collapse" href="#keys-"+data.img aria-expanded="false" aria-controls="keys-"+data.img) Show Keys
+          &nbsp;
+          span.label.label-pill.label-default= env.helpers.getFilteredKeys(contents, page.metadata.gbtag, data.tagfilters).length
     div.collapse(id="keys-"+data.img)
       div.row
-        each keypage in env.helpers.sortById(env.helpers.getArticlesByTag(contents, page.metadata.gbtag))
-          if env.helpers.passesTagFilter(keypage, data.tagfilters) === true
-             div(class="col-sm-6 col-md-3 col-lg-2 keybox")
-               header
-                 h3
-                   a(href=keypage.url)= keypage.title
-                 p.keyinfo
-                   span= keypage.metadata.colorway
-                   br
-                   span= keypage.metadata.profile
-               section.content.key-size
-                 a(href=keypage.url)
-                   - var goodImg = contents.singlekeys[keypage.metadata.code + ".png"]
-                   - var useImg = typeof goodImg !== "undefined" ? goodImg : contents.singlekeys["missing.png"]
-                   img(src=useImg.url alt=keypage.title title=keypage.title class="img-fluid")
-               section.keyboxspacer
+        each keypage in env.helpers.getFilteredKeys(contents, page.metadata.gbtag, data.tagfilters)
+           div(class="col-sm-6 col-md-3 col-lg-2 keybox")
+             header
+               h3
+                 a(href=keypage.url)= keypage.title
+               p.keyinfo
+                 span= keypage.metadata.colorway
+                 br
+                 span= keypage.metadata.profile
+             section.content.key-size
+               a(href=keypage.url)
+                 - var goodImg = contents.singlekeys[keypage.metadata.code + ".png"]
+                 - var useImg = typeof goodImg !== "undefined" ? goodImg : contents.singlekeys["missing.png"]
+                 img(src=useImg.url alt=keypage.title title=keypage.title class="img-fluid")
+             section.keyboxspacer
   hr
 
   h2#howgbswork How Group Buys Work

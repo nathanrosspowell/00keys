@@ -38,7 +38,7 @@ gblinks:
 template: groupbuy.jade
 ---
 
-Welcome to the the latest entry in the Out of the Vault series!
+Some keys have been removed from the mock-ups that are on display. Please bare with us as we try to streamline the available keys for maximum appeal.
 
 <span class="more">
 

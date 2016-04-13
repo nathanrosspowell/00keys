@@ -49,7 +49,10 @@ block content
                  h3
                    a(href=article.url)= article.title
                  p.keyinfo
-                   span= article.metadata.colorway
+                   if env.helpers.getTagsFromArticle(article).indexOf('Canceled') !== -1
+                     span.canceled CANCELED...
+                   else
+                     span= article.metadata.colorway
                    br
                    span= article.metadata.profile
                section.content.key-size
