@@ -38,7 +38,7 @@ gblinks:
 template: groupbuy.jade
 ---
 
-Some keys have been removed from the mock-ups that are on display. Please bare with us as we try to streamline the available keys for maximum appeal.
+This is the latest edition in the 'Out of the Vault' series! Three kits in different profiles are availble, which have eight keys each, including two that glow in the dark!
 
 <span class="more">
 
