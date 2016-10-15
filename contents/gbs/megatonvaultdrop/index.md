@@ -5,7 +5,7 @@ date: 2016-04-01
 type: gb
 gbtag: Megaton Vault Drop GB
 code: megatonvaultdrop
-status: Open
+status: Completed
 form: https://docs.google.com/forms/d/1mR7WSDoUi1uYqpCcIEIR-ndKwOnJMRsumz8UChLjMxg/viewform 
 offers:
     - img: sa1
