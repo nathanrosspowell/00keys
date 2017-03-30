@@ -12,7 +12,6 @@ offers:
     price: 20
     tagfilters:
       - Series II Parent Kit
-    price: 40
   - img: nuc-green
     name: Nuclear Data Green
     price: 20
