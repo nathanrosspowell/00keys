@@ -333,3 +333,30 @@ section.keyboxspace {
 .background-POLYBLUE {
   background-color: #33ACF1;
 }
+
+.legend-POLYRED {
+  color:#cc0000;
+}
+
+.background-POLYRED {
+  background-color: #cc0000;
+}
+
+.legend-POLYGREEN {
+  color:#336600;
+}
+
+.background-POLYGREEN {
+  background-color: #336600;
+}
+
+.legend-SILVERABS {
+  color:#cccccc;
+}
+
+.background-SILVERABS {
+  background-color: #cccccc;
+}
+
+
+
