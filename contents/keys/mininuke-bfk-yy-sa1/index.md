@@ -5,13 +5,10 @@ colorway: Vault Jumpsuit
 base: BFK
 legend: YY
 author: 00keys
-date: 2016-04-01
-gb: megatonvaultdrop
+date: 2017-04-01
+gb: junktown2
 code: mininuke-bfk-yy-sa1
-id: 706 # 700 = Megaton Vault Drop, SA1
-tags: SA Row 1, Mini Nuke, Megaton Vault Drop GB, Vault Jumpsuit, Canceled
+id: 1013 # 1000 = Junktown Keys II GB
+tags: SA Row 1, Mini Nuke, Junktown Keys II GB, Vault Jumpsuit
 template: key.jade
 ---
-
-
-

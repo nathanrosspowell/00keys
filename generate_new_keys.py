@@ -8,16 +8,16 @@ profiles = (
     ("dsa", "DSA"),
 )
 keys = (
-    ("brotherhood", "Brotherhood Helmet"), 
+    ("brotherhood", "BoS Helmet"), 
     ("lucky38", "Lucky 38"),
     ("v21", "Vault 21"),
     ("mininuke", "Mini Nuke"),
 )
 colorways = (
     ("bfk", "yy", "Vault Jumpsuit"),
-    ("silverabs", "nn", "Brotherhood of Steel"),
-    ("polygreen", "wa", "Zetans"),
-    ("polyred", "wa", "The Institute"),  
+    ("silverabs", "nn", "Brotherhood Steel"),
+    ("polygreen", "wa", "PipBoy Green"),
+    ("polyred", "wa", "Radaway Red"),  
 )
 
 
@@ -37,6 +37,7 @@ template: key.jade
 ---"""
 
 key_name_template = "{keycode}-{base_color}-{legend_color}-{profile}"
+key_img = "{keycode}-{base_color}-{legend_color}-"
 
 placeholder_img = "missing"
 img_ext = ".png"
@@ -50,14 +51,26 @@ def make_key(data):
     key_dir = os.path.join(contents, "keys")
     img_dir = os.path.join(contents, "singlekeys")
     key_name = key_name_template.format(**data)
+    img = key_name_template.format(**data)
     new_key_dir = os.path.join(key_dir, key_name)
-    placeholder = os.path.join(img_dir, placeholder_img + img_ext)
     new_img = os.path.join(img_dir, key_name + img_ext)
-    print("copy",placeholder, "->", new_img)
-    copyfile(placeholder, new_img)
+
+    try:
+        img_dir = os.path.join(contents, "temp")
+        placeholder = os.path.join(img_dir, key_img.format(**data) + img_ext)
+        print("copy",placeholder, "->", new_img)
+        copyfile(placeholder, new_img)
+    except:
+        img_dir = os.path.join(contents, "singlekeys")
+        placeholder = os.path.join(img_dir, placeholder_img + img_ext)
+        print("failed, fallback")
+        print("copy",placeholder, "->", new_img)
+        copyfile(placeholder, new_img)
+
     print(template.format(**data))
     print(new_key_dir)
     os.makedirs(new_key_dir, exist_ok=True)
+
     with open(os.path.join(new_key_dir,"index.md"), 'w') as out_file:
             out_file.write(template.format(**data))
 
@@ -65,8 +78,8 @@ if __name__ == "__main__":
     set_id = base_id
     for i, profile in enumerate(reversed(profiles)):
         id_code = set_id
-        for key in reversed(keys):
-            for color in reversed(colorways):
+        for color in reversed(colorways):
+            for key in reversed(keys):
                 id_code += 1
                 make_key({
                     "keyname" : key[1],

@@ -1,2 +1,1 @@
-Brotherhood of Steel Silver
-
+Military technology is the Brotherhood's main priority, and their efforts over the centuries have equipped them with a powerful array of power armor, energy weapons, defense turrets, combat implants, and computers. Their devotion to the cause of collecting technology is such that they are willing to go to war in order to obtain it, even against much larger organizations such as the NCR.

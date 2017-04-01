@@ -1,1 +1,1 @@
-Polycard Green new color.
+The Pip-Boy 2000 displays information in bright green on its black 5" x 3" screen, can record sound and video footage for later playback, and uses a simple yet elegant form of sonar and satellite tracking where satellite coverage is available to map out areas where its user travels. Though input is slow, a user can also hand-enter and edit text messages on the Pip-Boy 2000.
