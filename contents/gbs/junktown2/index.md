@@ -5,8 +5,8 @@ date: 2017-04-01
 type: gb
 gbtag: Junktown Keys II GB
 code: junktown2
-status: Coming Soon!
-form: https://www.google.ca/search?q=coming+soon
+status: Open
+form: https://docs.google.com/forms/d/e/1FAIpQLScJzX3J73MqhNdWDaYTnX9BdFKqF5tKVJMk-CG4j33d2jZB5w/viewform
 offers:
     - img: sa1
       name: ABS/PC 1x1 SA Row 1 - (set of 16 keys)
