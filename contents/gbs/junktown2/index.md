@@ -31,6 +31,8 @@ iclinks:
 gblinks:
     - name: geekhack.org
       url: https://geekhack.org/index.php?topic=87810
+    - name: /r/MechanicalKeyboards
+      url: https://redd.it/62zz5h
 template: groupbuy.jade
 ---
 
