@@ -28,6 +28,9 @@ iclinks:
       url: https://geekhack.org/index.php?topic=87858
     - name: /r/MechanicalKeyboards
       url: https://redd.it/60aciv
+gblinks:
+    - name: geekhack.org
+      url: https://geekhack.org/index.php?topic=87810
 template: groupbuy.jade
 ---
 
