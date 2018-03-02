@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>00keys</title>
+    <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://localhost:8080</link>
+    <description>Custom Keycaps</description>
+    <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+    <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
+    <language>en</language>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-polygreen-wa-dsa/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-polygreen-wa-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>BoS Helmet</title>
+      <link>http://localhost:8080/00keys/keys/brotherhood-bfk-yy-sa1/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/brotherhood-bfk-yy-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>BoS Helmet</title>
+      <link>http://localhost:8080/00keys/keys/brotherhood-polygreen-wa-dsa/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/brotherhood-polygreen-wa-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>BoS Helmet</title>
+      <link>http://localhost:8080/00keys/keys/brotherhood-bfk-yy-sa3/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/brotherhood-bfk-yy-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>BoS Helmet</title>
+      <link>http://localhost:8080/00keys/keys/brotherhood-polygreen-wa-sa1/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/brotherhood-polygreen-wa-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>BoS Helmet</title>
+      <link>http://localhost:8080/00keys/keys/brotherhood-polygreen-wa-sa3/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/brotherhood-polygreen-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>BoS Helmet</title>
+      <link>http://localhost:8080/00keys/keys/brotherhood-polyred-wa-sa1/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/brotherhood-polyred-wa-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>BoS Helmet</title>
+      <link>http://localhost:8080/00keys/keys/brotherhood-polyred-wa-sa3/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/brotherhood-polyred-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>BoS Helmet</title>
+      <link>http://localhost:8080/00keys/keys/brotherhood-silverabs-nn-sa3/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/brotherhood-silverabs-nn-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Lucky 38</title>
+      <link>http://localhost:8080/00keys/keys/lucky38-polygreen-wa-dsa/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/lucky38-polygreen-wa-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>BoS Helmet</title>
+      <link>http://localhost:8080/00keys/keys/brotherhood-silverabs-nn-sa1/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/brotherhood-silverabs-nn-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Lucky 38</title>
+      <link>http://localhost:8080/00keys/keys/lucky38-bfk-yy-sa3/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/lucky38-bfk-yy-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>BoS Helmet</title>
+      <link>http://localhost:8080/00keys/keys/brotherhood-silverabs-nn-dsa/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/brotherhood-silverabs-nn-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Lucky 38</title>
+      <link>http://localhost:8080/00keys/keys/lucky38-bfk-yy-sa1/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/lucky38-bfk-yy-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Lucky 38</title>
+      <link>http://localhost:8080/00keys/keys/lucky38-bfk-yy-dsa/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/lucky38-bfk-yy-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Lucky 38</title>
+      <link>http://localhost:8080/00keys/keys/lucky38-polygreen-wa-sa1/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/lucky38-polygreen-wa-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Lucky 38</title>
+      <link>http://localhost:8080/00keys/keys/lucky38-polyred-wa-dsa/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/lucky38-polyred-wa-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Lucky 38</title>
+      <link>http://localhost:8080/00keys/keys/lucky38-polygreen-wa-sa3/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/lucky38-polygreen-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Lucky 38</title>
+      <link>http://localhost:8080/00keys/keys/lucky38-polyred-wa-sa1/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/lucky38-polyred-wa-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Lucky 38</title>
+      <link>http://localhost:8080/00keys/keys/lucky38-polyred-wa-sa3/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/lucky38-polyred-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Lucky 38</title>
+      <link>http://localhost:8080/00keys/keys/lucky38-silverabs-nn-sa3/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/lucky38-silverabs-nn-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-bfk-yy-sa3/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-bfk-yy-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-bfk-yy-sa1/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-bfk-yy-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Lucky 38</title>
+      <link>http://localhost:8080/00keys/keys/lucky38-silverabs-nn-dsa/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/lucky38-silverabs-nn-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>BoS Helmet</title>
+      <link>http://localhost:8080/00keys/keys/brotherhood-polyred-wa-dsa/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/brotherhood-polyred-wa-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-bfk-yy-dsa/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-bfk-yy-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Lucky 38</title>
+      <link>http://localhost:8080/00keys/keys/lucky38-silverabs-nn-sa1/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/lucky38-silverabs-nn-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-polygreen-wa-sa1/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-polygreen-wa-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-polyred-wa-dsa/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-polyred-wa-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-polygreen-wa-sa3/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-polygreen-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-polyred-wa-sa1/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-polyred-wa-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-polyred-wa-sa3/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-polyred-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-silverabs-nn-sa1/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-silverabs-nn-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-silverabs-nn-dsa/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-silverabs-nn-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-silverabs-nn-sa3/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-silverabs-nn-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>BoS Helmet</title>
+      <link>http://localhost:8080/00keys/keys/brotherhood-bfk-yy-dsa/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/brotherhood-bfk-yy-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 21</title>
+      <link>http://localhost:8080/00keys/keys/v21-bfk-yy-dsa/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v21-bfk-yy-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 21</title>
+      <link>http://localhost:8080/00keys/keys/v21-bfk-yy-sa1/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v21-bfk-yy-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 21</title>
+      <link>http://localhost:8080/00keys/keys/v21-polygreen-wa-dsa/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v21-polygreen-wa-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 21</title>
+      <link>http://localhost:8080/00keys/keys/v21-polygreen-wa-sa1/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v21-polygreen-wa-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 21</title>
+      <link>http://localhost:8080/00keys/keys/v21-polygreen-wa-sa3/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v21-polygreen-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 21</title>
+      <link>http://localhost:8080/00keys/keys/v21-silverabs-nn-dsa/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v21-silverabs-nn-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 21</title>
+      <link>http://localhost:8080/00keys/keys/v21-bfk-yy-sa3/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v21-bfk-yy-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 21</title>
+      <link>http://localhost:8080/00keys/keys/v21-polyred-wa-dsa/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v21-polyred-wa-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 21</title>
+      <link>http://localhost:8080/00keys/keys/v21-polyred-wa-sa1/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v21-polyred-wa-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 21</title>
+      <link>http://localhost:8080/00keys/keys/v21-silverabs-nn-sa1/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v21-silverabs-nn-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 21</title>
+      <link>http://localhost:8080/00keys/keys/v21-polyred-wa-sa3/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v21-polyred-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 21</title>
+      <link>http://localhost:8080/00keys/keys/v21-silverabs-nn-sa3/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v21-silverabs-nn-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-vv-yy-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-vv-yy-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-vv-yy-dsa/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-vv-yy-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-vv-yy-sa1/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-vv-yy-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-yy-nn-sa1/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-yy-nn-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-yca-bfk-sa1/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-yca-bfk-sa1/</guid>
+      <author></author>
+      <description>&lt;p&gt;The base color of this key will be Glow In The Dark (GID).&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-ra-wa-dsa/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-ra-wa-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Nuka Cola</title>
+      <link>http://localhost:8080/00keys/keys/nukacola-polyblue-wa-dsa/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/nukacola-polyblue-wa-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-yca-bfk-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-yca-bfk-sa3/</guid>
+      <author></author>
+      <description>&lt;p&gt;The base color of this key will be Glow In The Dark (GID).&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-yy-nn-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-yy-nn-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Nuka Cola</title>
+      <link>http://localhost:8080/00keys/keys/nukacola-oas-wa-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/nukacola-oas-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-yy-nn-dsa/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-yy-nn-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Nuka Cola</title>
+      <link>http://localhost:8080/00keys/keys/nukacola-vv-wa-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/nukacola-vv-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Nuka Cola</title>
+      <link>http://localhost:8080/00keys/keys/nukacola-ra-wa-dsa/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/nukacola-ra-wa-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Relegendable</title>
+      <link>http://localhost:8080/00keys/keys/relegend-bfk-none-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/relegend-bfk-none-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Nuka Cola</title>
+      <link>http://localhost:8080/00keys/keys/nukacola-ra-wa-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/nukacola-ra-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Nuka Cola</title>
+      <link>http://localhost:8080/00keys/keys/nukacola-polyblue-yca-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/nukacola-polyblue-yca-sa3/</guid>
+      <author></author>
+      <description>&lt;p&gt;The legend on this key might seem a bit hard to see, but that is becaues the plastic used is actually glow in the dark!&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Relegendable</title>
+      <link>http://localhost:8080/00keys/keys/relegend-yca-none-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/relegend-yca-none-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Relegendable</title>
+      <link>http://localhost:8080/00keys/keys/relegend-ra-none-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/relegend-ra-none-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 101</title>
+      <link>http://localhost:8080/00keys/keys/v101-bfk-yy-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v101-bfk-yy-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Relegendable</title>
+      <link>http://localhost:8080/00keys/keys/relegend-vv-none-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/relegend-vv-none-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 101</title>
+      <link>http://localhost:8080/00keys/keys/v101-gsm-yce-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v101-gsm-yce-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Nuka Cola</title>
+      <link>http://localhost:8080/00keys/keys/nukacola-yy-nn-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/nukacola-yy-nn-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 101</title>
+      <link>http://localhost:8080/00keys/keys/v101-oas-wa-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v101-oas-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 101</title>
+      <link>http://localhost:8080/00keys/keys/v101-polyblue-yca-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v101-polyblue-yca-sa3/</guid>
+      <author></author>
+      <description>&lt;p&gt;The legend on this key might seem a bit hard to see, but that is becaues the plastic used is actually glow in the dark!&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Vault 111</title>
+      <link>http://localhost:8080/00keys/keys/v111-bfk-yy-sa1/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v111-bfk-yy-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 101</title>
+      <link>http://localhost:8080/00keys/keys/v101-yy-nn-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v101-yy-nn-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 111</title>
+      <link>http://localhost:8080/00keys/keys/v111-bfk-yy-dsa/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v111-bfk-yy-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 101</title>
+      <link>http://localhost:8080/00keys/keys/v101-vv-wa-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v101-vv-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 111</title>
+      <link>http://localhost:8080/00keys/keys/v111-bfk-yy-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v111-bfk-yy-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 111</title>
+      <link>http://localhost:8080/00keys/keys/v111-gsm-yce-dsa/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v111-gsm-yce-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 111</title>
+      <link>http://localhost:8080/00keys/keys/v111-gsm-yce-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v111-gsm-yce-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 111</title>
+      <link>http://localhost:8080/00keys/keys/v111-gsm-yce-sa1/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v111-gsm-yce-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 12</title>
+      <link>http://localhost:8080/00keys/keys/v12-bfk-yy-sa1/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v12-bfk-yy-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 12</title>
+      <link>http://localhost:8080/00keys/keys/v12-bfk-yy-dsa/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v12-bfk-yy-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 12</title>
+      <link>http://localhost:8080/00keys/keys/v12-bfk-yy-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v12-bfk-yy-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 12</title>
+      <link>http://localhost:8080/00keys/keys/v12-yca-bfk-sa1/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v12-yca-bfk-sa1/</guid>
+      <author></author>
+      <description>&lt;p&gt;The base color of this key will be Glow In The Dark (GID).&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Vault 13</title>
+      <link>http://localhost:8080/00keys/keys/v13-oas-wa-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v13-oas-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 13</title>
+      <link>http://localhost:8080/00keys/keys/v13-bfk-yy-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v13-bfk-yy-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 12</title>
+      <link>http://localhost:8080/00keys/keys/v12-yca-bfk-dsa/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v12-yca-bfk-dsa/</guid>
+      <author></author>
+      <description>&lt;p&gt;The base color of this key will be Glow In The Dark (GID).&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Vault 13</title>
+      <link>http://localhost:8080/00keys/keys/v13-polyblue-yca-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v13-polyblue-yca-sa3/</guid>
+      <author></author>
+      <description>&lt;p&gt;The legend on this key might seem a bit hard to see, but that is becaues the plastic used is actually glow in the dark!&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Vault 13</title>
+      <link>http://localhost:8080/00keys/keys/v13-vv-wa-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v13-vv-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 13</title>
+      <link>http://localhost:8080/00keys/keys/v13-yy-nn-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v13-yy-nn-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-oas-wa-sa1/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-oas-wa-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 12</title>
+      <link>http://localhost:8080/00keys/keys/v12-yca-bfk-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v12-yca-bfk-sa3/</guid>
+      <author></author>
+      <description>&lt;p&gt;The base color of this key will be Glow In The Dark (GID).&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-ra-wa-sa1/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-ra-wa-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-rn-tm-dsa/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-rn-tm-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-ra-wa-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-ra-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-rn-tm-sa1/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-rn-tm-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 87</title>
+      <link>http://localhost:8080/00keys/keys/v87-bfk-yy-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v87-bfk-yy-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-oas-wa-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-oas-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-vv-wa-sa1/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-vv-wa-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-oas-wa-dsa/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-oas-wa-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 87</title>
+      <link>http://localhost:8080/00keys/keys/v87-bfk-yy-dsa/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v87-bfk-yy-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-vv-wa-dsa/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-vv-wa-dsa/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault 87</title>
+      <link>http://localhost:8080/00keys/keys/v87-bfk-yy-sa1/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/v87-bfk-yy-sa1/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-vv-wa-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-vv-wa-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-rn-tm-sa3/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-rn-tm-sa3/</guid>
+      <author></author>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini Nuke</title>
+      <link>http://localhost:8080/00keys/keys/mininuke-yca-bfk-dsa/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/00keys/keys/mininuke-yca-bfk-dsa/</guid>
+      <author></author>
+      <description>&lt;p&gt;The base color of this key will be Glow In The Dark (GID).&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,362 @@
+@font-face {
+  font-family: 'Overseer';
+  src: url(Overseer.ttf);
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+section {
+  padding-bottom: 1.5rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: Overseer, Arial;
+}
+
+.canceled {
+    color: red;
+    font-weight: bold;
+}
+
+.key-jumbotron {
+    max-width: 400px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+.key-jumbotron-img{
+}
+
+.gbtitle {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-left: 5px;
+    font-size: 0.5em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-25%);
+}
+
+.carousel-title {
+    font-family: Overseer, Arial;
+}
+
+p.carousel-sub, a.carousel-sub {
+    font-family: Arial;
+    text-shadow: 1px 1px #000;
+}
+
+.gallery {
+    height: 80vh;
+}
+
+@media only screen and (max-width: 47.9em) { 
+    .gallery {
+        height: 30vh;
+    }
+}
+
+@media only screen and (max-width: 61.9em) { 
+    .gallery {
+        height: 50vh;
+    }
+}
+
+.gallery-item {
+   height: 100%;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   -ms-transform: translateY(-50%) translateX(-50%);
+   -webkit-transform: translateY(-50%) translateX(-50%);
+   transform: translateY(-50%) translateX(-50%);
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.team-img {
+    height: 64px;
+    width: 64px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 1rem;
+  border-bottom: .05rem solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 68em) {
+  .container {
+    max-width: 66rem;
+  }
+}
+.container-narrow > hr {
+  margin: 2rem 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: .05rem solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: .75rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 3rem 0;
+}
+.marketing p + h4 {
+  margin-top: 1.5rem;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 2rem;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+footer .nav a {
+  padding: 0 0.5em;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.thumbnail img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.keyinfo{
+  font-size: 0.8em;
+}
+
+.colorchip {
+  height: 85px;
+  display: inline-block;
+}
+
+.colorchip img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+ul.inline {
+  display:inline;
+  padding:0;
+  margin:0;
+}
+
+ul.inline li {
+  display:inline-block;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.keybox p {
+ padding: 0;
+ margin: 0;
+}
+
+section.keyboxspace {
+}
+
+#footer {
+  text-align: center;
+}
+
+.key-size {
+  height:180px;
+  width:160px;
+}
+
+.legend-BFK {
+  color:#005190;
+}
+
+.background-BFK {
+  background-color:#005190;
+}
+
+.background-BFK p a {
+  color:#e4dedd;
+}
+
+.legend-YY {
+  color:#f8cc2a;
+}
+
+.background-YY {
+  background-color:#f8cc2a;
+}
+
+.legend-NN {
+  color:#212224;
+}
+
+.background-NN {
+  background-color: #212224;
+}
+
+.legend-RA {
+  color:#ba1312;
+}
+
+.background-RA {
+  background-color: #ba1312;
+}
+
+.background-RA p a {
+  color:#212224;
+}
+
+.legend-WA {
+  color:#e4dedd;
+}
+
+.background-WA {
+  background-color: #e4dedd;
+}
+
+.legend-OAS {
+  color:#ff6800;
+}
+
+.background-OAS {
+  background-color: #ff6800;
+}
+
+.background-OAS p a {
+  color:#212224;
+}
+
+.legend-VV {
+  color:#005d35;
+}
+
+.background-VV {
+  background-color: #005d35;
+}
+
+.background-VV p a {
+  color:#212224;
+}
+
+.legend-YCA {
+  color:#CDCEAF;
+}
+
+.background-YCA {
+  background-color: #CDCEAF;
+}
+
+.legend-GSM {
+  color:#455460;
+}
+
+.background-GSM {
+  background-color: #455460;
+}
+
+.legend-YCE {
+  color:#ffdb58;
+}
+
+.background-YCE {
+  background-color: #ffdb58;
+}
+
+.legend-RN {
+  color:#a51b1b;
+}
+
+.background-RN {
+  background-color: #a51b1b;
+}
+
+.legend-TM {
+  color:#d9c9a8;
+}
+
+.background-TM {
+  background-color: #d9c9a8;
+}
+
+.legend-POLYBLUE {
+  color:#33ACF1;
+}
+
+.background-POLYBLUE {
+  background-color: #33ACF1;
+}
+
+.legend-POLYRED {
+  color:#cc0000;
+}
+
+.background-POLYRED {
+  background-color: #cc0000;
+}
+
+.legend-POLYGREEN {
+  color:#336600;
+}
+
+.background-POLYGREEN {
+  background-color: #336600;
+}
+
+.legend-SILVERABS {
+  color:#cccccc;
+}
+
+.background-SILVERABS {
+  background-color: #cccccc;
+}
+
+
+
