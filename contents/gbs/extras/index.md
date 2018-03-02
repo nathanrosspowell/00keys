@@ -6,7 +6,7 @@ type: gb
 gbtag: Extras
 code: extras
 status: Open
-form: http://google.com
+form: https://goo.gl/forms/XnPFK0EAdNv7YGsn2
 offers:
     - img: sa1
       name: ABS/PC 1x1 SA Row 1 - (set of 16 keys)
@@ -28,7 +28,7 @@ iclinks:
       url: https://geekhack.org/index.php?topic=87858
     - name: /r/MechanicalKeyboards
       url: https://redd.it/60aciv
-gblinks:
+gblinks:    
     - name: geekhack.org
       url: https://geekhack.org/index.php?topic=87810
     - name: /r/MechanicalKeyboards
